@@ -1,0 +1,2744 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Calendar Slider\n"
+"POT-Creation-Date: 2017-08-04 16:49+0530\n"
+"PO-Revision-Date: 2017-08-04 16:59+0530\n"
+"Last-Translator: LiveMesh\n"
+"Language-Team: LiveMesh\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-ajax.php:56
+msgid "Sorry, an error occurred. Please refresh the page."
+msgstr ""
+
+#: admin/admin-ajax.php:82
+msgid "Sorry, an unknown error occurred..."
+msgstr ""
+
+#: admin/admin-ajax.php:123
+msgid "Saving plugin settings"
+msgstr ""
+
+#: admin/admin-ajax.php:124
+msgid "Plugin settings Saved"
+msgstr ""
+
+#: admin/admin-ajax.php:125
+msgid "Sorry, an error occurs while saving settings..."
+msgstr ""
+
+#: admin/admin-ajax.php:128
+msgid "Resetting plugin settings"
+msgstr ""
+
+#: admin/admin-ajax.php:129
+msgid "Plugin settings resetted"
+msgstr ""
+
+#: admin/admin-ajax.php:130
+msgid "Sorry, an error occurred while resetting settings"
+msgstr ""
+
+#: admin/admin-init.php:69 admin/views/admin-banner1.php:13
+#: admin/views/admin-banner2.php:13
+msgid "Addons for Beaver Builder"
+msgstr ""
+
+#: admin/admin-init.php:70 admin/views/documentation.php:196
+msgid "Beaver Addons"
+msgstr ""
+
+#: admin/admin-init.php:80
+msgid "Widgets Settings"
+msgstr ""
+
+#: admin/admin-init.php:81 includes/modules/labb-button/labb-button.php:102
+#: includes/modules/labb-carousel/labb-carousel.php:56
+#: includes/modules/labb-faq/labb-faq.php:104
+#: includes/modules/labb-features/labb-features.php:122
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:65
+#: includes/modules/labb-gallery/labb-gallery.php:89
+#: includes/modules/labb-heading/labb-heading.php:105
+#: includes/modules/labb-image-slider/labb-image-slider.php:104
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:115
+#: includes/modules/labb-services/labb-services.php:185
+#: includes/modules/labb-slider/labb-slider.php:69
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:70
+#: includes/modules/labb-testimonials/labb-testimonials.php:120
+msgid "Settings"
+msgstr ""
+
+#: admin/admin-init.php:90
+msgid "Widgets Documentation"
+msgstr ""
+
+#: admin/admin-init.php:91
+msgid "Documentation"
+msgstr ""
+
+#: admin/update-init.php:83
+msgid "Beaver Builder Addons License"
+msgstr ""
+
+#: admin/update-init.php:84
+msgid "License"
+msgstr ""
+
+#: admin/update-init.php:97
+msgid "License Settings"
+msgstr ""
+
+#: admin/update-init.php:100
+msgid ""
+"Using this settings page you can set the license key that you purchased, "
+"then you can get automatic updates for Addons for Beaver Builder Pro."
+msgstr ""
+
+#: admin/update-init.php:102
+msgid "Your License"
+msgstr ""
+
+#: admin/update-init.php:104
+#, php-format
+msgid ""
+"A license key qualifies you for support and enables automatic updates "
+"straight to your dashboard. Simply enter your license key where indicated "
+"and get started. If you don't have a license key, and haven't bought Addons "
+"for Beaver Builder Pro yet, <a href=\"%s\" target=\"_blank\">buy it in our "
+"website</a>."
+msgstr ""
+
+#: admin/update-init.php:112
+msgid "License Key"
+msgstr ""
+
+#: admin/update-init.php:117
+#, php-format
+msgid ""
+"You can find your key in your purchase receipt email or in <a href=\"%s\" "
+"target=\"_blank\">your purchases</a>. License key looks similar to this: "
+"fb351f05958872E193feb37a505a84be"
+msgstr ""
+
+#: admin/update-init.php:126 admin/update-init.php:138
+msgid "Activate License"
+msgstr ""
+
+#: admin/update-init.php:130
+msgid "active"
+msgstr ""
+
+#: admin/update-init.php:133
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/update-init.php:195 admin/update-init.php:243
+#: admin/update-init.php:304
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: admin/update-init.php:210
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: admin/update-init.php:217
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: admin/update-init.php:222
+msgid "Invalid license."
+msgstr ""
+
+#: admin/update-init.php:228
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: admin/update-init.php:233
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: admin/update-init.php:238
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: admin/updates/EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: admin/updates/EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: admin/updates/EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: admin/updates/EDD_SL_Plugin_Updater.php:396
+msgid "Error"
+msgstr ""
+
+#: admin/views/admin-banner1.php:13
+msgid "Plugin Documentation"
+msgstr ""
+
+#: admin/views/admin-banner2.php:13
+msgid "Plugin Settings"
+msgstr ""
+
+#: admin/views/admin-banner2.php:16
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/admin-banner2.php:18
+msgid "Reset"
+msgstr ""
+
+#: admin/views/documentation.php:32
+#, php-format
+msgid "Getting started with %1$s v%2$s"
+msgstr ""
+
+#: admin/views/documentation.php:34
+#, php-format
+msgid ""
+"Thanks for purchasing %1$s! We truly appreciate the support and the "
+"opportunity to share our work with you. Please visit the tabs below to get "
+"started on using our plugin to build your site!"
+msgstr ""
+
+#: admin/views/documentation.php:42
+msgid "Help File"
+msgstr ""
+
+#: admin/views/documentation.php:45
+msgid "Plugins"
+msgstr ""
+
+#: admin/views/documentation.php:49
+msgid "FAQ &amp; Support"
+msgstr ""
+
+#: admin/views/documentation.php:53
+msgid "Latest Updates"
+msgstr ""
+
+#: admin/views/documentation.php:117
+msgid "Settings->Page Builder"
+msgstr ""
+
+#: admin/views/documentation.php:131 admin/views/documentation.php:178
+msgid "Tools→Import"
+msgstr ""
+
+#: admin/views/documentation.php:200
+msgid "Beaver Addons→Settings"
+msgstr ""
+
+#: admin/views/documentation.php:1122
+msgid "Beaver Builder"
+msgstr ""
+
+#: admin/views/documentation.php:1125
+msgid "Install Beaver Builder"
+msgstr ""
+
+#: admin/views/documentation.php:1126 admin/views/documentation.php:1150
+msgid "Install Now"
+msgstr ""
+
+#: admin/views/documentation.php:1130 admin/views/documentation.php:1154
+msgid "Installed"
+msgstr ""
+
+#: admin/views/documentation.php:1146
+msgid "Portfolio Post Type"
+msgstr ""
+
+#: admin/views/documentation.php:1149
+msgid "Install Portfolio Post Type"
+msgstr ""
+
+#: admin/views/documentation.php:1255
+msgid "Contact Us"
+msgstr ""
+
+#: admin/views/documentation.php:1265
+msgid "Write to Us"
+msgstr ""
+
+#: admin/views/settings.php:35
+#: includes/modules/labb-accordion/labb-accordion.php:31
+#: includes/modules/labb-accordion/labb-accordion.php:105
+#: includes/modules/labb-button/labb-button.php:35
+#: includes/modules/labb-carousel/labb-carousel.php:36
+#: includes/modules/labb-carousel/labb-carousel.php:254
+#: includes/modules/labb-clients/labb-clients.php:36
+#: includes/modules/labb-clients/labb-clients.php:89
+#: includes/modules/labb-countdown/labb-countdown.php:33
+#: includes/modules/labb-faq/labb-faq.php:36
+#: includes/modules/labb-faq/labb-faq.php:80
+#: includes/modules/labb-features/labb-features.php:35
+#: includes/modules/labb-features/labb-features.php:80
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:45
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:270
+#: includes/modules/labb-gallery/labb-gallery.php:57
+#: includes/modules/labb-gallery/labb-gallery.php:92
+#: includes/modules/labb-gallery/labb-gallery.php:261
+#: includes/modules/labb-heading/labb-heading.php:35
+#: includes/modules/labb-icon-list/labb-icon-list.php:136
+#: includes/modules/labb-image-slider/labb-image-slider.php:60
+#: includes/modules/labb-image-slider/labb-image-slider.php:268
+#: includes/modules/labb-odometers/labb-odometers.php:33
+#: includes/modules/labb-odometers/labb-odometers.php:78
+#: includes/modules/labb-piecharts/labb-piecharts.php:35
+#: includes/modules/labb-piecharts/labb-piecharts.php:58
+#: includes/modules/labb-piecharts/labb-piecharts.php:97
+#: includes/modules/labb-portfolio/labb-portfolio.php:64
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:78
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:122
+#: includes/modules/labb-services/labb-services.php:34
+#: includes/modules/labb-services/labb-services.php:130
+#: includes/modules/labb-slider/labb-slider.php:36
+#: includes/modules/labb-slider/labb-slider.php:170
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:32
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:60
+#: includes/modules/labb-tabs/labb-tabs.php:39
+#: includes/modules/labb-tabs/labb-tabs.php:117
+#: includes/modules/labb-team-members/labb-team-members.php:80
+#: includes/modules/labb-team-members/labb-team-members.php:144
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:37
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:159
+#: includes/modules/labb-testimonials/labb-testimonials.php:36
+#: includes/modules/labb-testimonials/labb-testimonials.php:80
+msgid "General"
+msgstr ""
+
+#: admin/views/settings.php:38 admin/views/settings.php:101
+#: admin/views/settings.php:106
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/views/settings.php:41
+msgid "Debugging"
+msgstr ""
+
+#: admin/views/settings.php:44 admin/views/settings.php:173
+msgid "Premium Version"
+msgstr ""
+
+#: admin/views/settings.php:54
+msgid "Theme Colors"
+msgstr ""
+
+#: admin/views/settings.php:59
+msgid "Theme Color Scheme"
+msgstr ""
+
+#: admin/views/settings.php:60
+msgid ""
+"Most themes use a single color as a major color across the site. This color "
+"is often used for links, titles, buttons, icons, highlights etc. <br> To "
+"maintain the consistent look with the theme, specify the default color used "
+"by the theme activated on your site. This color will be applied to the "
+"plugin addons by default. <br>The hover color refers to the color set for "
+"links on mouse hover."
+msgstr ""
+
+#: admin/views/settings.php:67
+msgid "Theme Color"
+msgstr ""
+
+#: admin/views/settings.php:68
+msgid "Select the default theme color."
+msgstr ""
+
+#: admin/views/settings.php:79
+msgid "Theme Hover Color"
+msgstr ""
+
+#: admin/views/settings.php:80
+msgid "Select the default hover color for your theme."
+msgstr ""
+
+#: admin/views/settings.php:108
+msgid "Please enter custom CSS for custom styling of addons"
+msgstr ""
+
+#: admin/views/settings.php:127
+msgid "Debug Mode"
+msgstr ""
+
+#: admin/views/settings.php:132
+msgid "Enable Script Debug Mode"
+msgstr ""
+
+#: admin/views/settings.php:134
+msgid ""
+"Use unminified Javascript files instead of minified ones to help developers "
+"debug an issue"
+msgstr ""
+
+#: admin/views/settings.php:147
+msgid "System Info"
+msgstr ""
+
+#: admin/views/settings.php:153
+msgid "System Information"
+msgstr ""
+
+#: admin/views/settings.php:154
+msgid "Server setup information useful for debugging purposes."
+msgstr ""
+
+#: admin/views/settings.php:181
+msgid "Thanks for upgrading to the Premium Version of the plugin!"
+msgstr ""
+
+#: admin/views/settings.php:290
+msgid "Know More"
+msgstr ""
+
+#: includes/fields/labb-toggle-button/labb-toggle-button.php:41
+#: includes/modules/labb-accordion/labb-accordion.php:54
+#: includes/modules/labb-accordion/labb-accordion.php:71
+msgid "Yes"
+msgstr ""
+
+#: includes/fields/labb-toggle-button/labb-toggle-button.php:42
+#: includes/modules/labb-accordion/labb-accordion.php:55
+#: includes/modules/labb-accordion/labb-accordion.php:72
+msgid "No"
+msgstr ""
+
+#: includes/gallery-functions.php:206 includes/grid-functions.php:210
+#: includes/modules/labb-gallery/labb-gallery.php:131
+#: includes/modules/labb-portfolio/labb-portfolio.php:125
+msgid "Load More"
+msgstr ""
+
+#: includes/gallery-functions.php:246 includes/grid-functions.php:264
+msgid "All"
+msgstr ""
+
+#: includes/gallery-functions.php:251 includes/grid-functions.php:269
+msgid "View all items filed under "
+msgstr ""
+
+#: includes/helper-functions.php:84
+msgid "M d, Y"
+msgstr ""
+
+#: includes/helper-functions.php:86 includes/helper-functions.php:90
+msgid "l, F, Y, g:i a"
+msgstr ""
+
+#: includes/helper-functions.php:90
+msgid "Y"
+msgstr ""
+
+#: includes/helper-functions.php:90
+msgid "m"
+msgstr ""
+
+#: includes/helper-functions.php:90
+msgid "d"
+msgstr ""
+
+#: includes/helper-functions.php:96
+msgid "By "
+msgstr ""
+
+#: includes/helper-functions.php:381
+#: includes/modules/labb-button/labb-button.php:80
+#: includes/modules/labb-button/labb-button.php:127
+#: includes/modules/labb-gallery/labb-gallery.php:129
+#: includes/modules/labb-portfolio/labb-portfolio.php:123
+#: includes/modules/labb-tabs/labb-tabs.php:161
+msgid "None"
+msgstr ""
+
+#: includes/helper-functions.php:382
+msgid "Bounce"
+msgstr ""
+
+#: includes/helper-functions.php:383
+msgid "Flash"
+msgstr ""
+
+#: includes/helper-functions.php:384
+msgid "Pulse"
+msgstr ""
+
+#: includes/helper-functions.php:385
+msgid "Swing"
+msgstr ""
+
+#: includes/helper-functions.php:386
+msgid "Shake"
+msgstr ""
+
+#: includes/helper-functions.php:387
+msgid "Tada"
+msgstr ""
+
+#: includes/helper-functions.php:388
+msgid "Wobble"
+msgstr ""
+
+#: includes/helper-functions.php:389
+msgid "Jello"
+msgstr ""
+
+#: includes/helper-functions.php:390
+msgid "Rubber Band"
+msgstr ""
+
+#: includes/helper-functions.php:391
+msgid "Bounce In"
+msgstr ""
+
+#: includes/helper-functions.php:392
+msgid "Bounce In Left"
+msgstr ""
+
+#: includes/helper-functions.php:393
+msgid "Bounce In Right"
+msgstr ""
+
+#: includes/helper-functions.php:394
+msgid "Bounce In Down"
+msgstr ""
+
+#: includes/helper-functions.php:395
+msgid "Bounce In Up"
+msgstr ""
+
+#: includes/helper-functions.php:396
+msgid "Fade In"
+msgstr ""
+
+#: includes/helper-functions.php:397
+msgid "Fade In Left"
+msgstr ""
+
+#: includes/helper-functions.php:398
+msgid "Fade In Left Big"
+msgstr ""
+
+#: includes/helper-functions.php:399
+msgid "Fade In Right"
+msgstr ""
+
+#: includes/helper-functions.php:400
+msgid "Fade In Right Big"
+msgstr ""
+
+#: includes/helper-functions.php:401
+msgid "Fade In Up"
+msgstr ""
+
+#: includes/helper-functions.php:402
+msgid "Fade In Up Big"
+msgstr ""
+
+#: includes/helper-functions.php:403
+msgid "Fade In Down"
+msgstr ""
+
+#: includes/helper-functions.php:404
+msgid "Fade In Down Big"
+msgstr ""
+
+#: includes/helper-functions.php:405
+msgid "Flip"
+msgstr ""
+
+#: includes/helper-functions.php:406
+msgid "Flip In X"
+msgstr ""
+
+#: includes/helper-functions.php:407
+msgid "Flip In Y"
+msgstr ""
+
+#: includes/helper-functions.php:408
+msgid "Light Speed In"
+msgstr ""
+
+#: includes/helper-functions.php:409
+msgid "Rotate In"
+msgstr ""
+
+#: includes/helper-functions.php:410
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: includes/helper-functions.php:411
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: includes/helper-functions.php:412
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: includes/helper-functions.php:413
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: includes/helper-functions.php:414
+msgid "Slide In Left"
+msgstr ""
+
+#: includes/helper-functions.php:415
+msgid "Slide In Right"
+msgstr ""
+
+#: includes/helper-functions.php:416
+msgid "Slide In Down"
+msgstr ""
+
+#: includes/helper-functions.php:417
+msgid "Slide In Up"
+msgstr ""
+
+#: includes/helper-functions.php:418
+msgid "Zoom In"
+msgstr ""
+
+#: includes/helper-functions.php:419
+msgid "Zoom In Left"
+msgstr ""
+
+#: includes/helper-functions.php:420
+msgid "Zoom In Right"
+msgstr ""
+
+#: includes/helper-functions.php:421
+msgid "Zoom In Down"
+msgstr ""
+
+#: includes/helper-functions.php:422
+msgid "Zoom In Up"
+msgstr ""
+
+#: includes/helper-functions.php:423
+msgid "Roll In"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:15
+msgid "Livemesh Accordion"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:16
+msgid ""
+"Displays collapsible content panels to help display information when space "
+"is limited."
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:17
+#: includes/modules/labb-button/labb-button.php:17
+#: includes/modules/labb-carousel/labb-carousel.php:19
+#: includes/modules/labb-clients/labb-clients.php:17
+#: includes/modules/labb-countdown/labb-countdown.php:17
+#: includes/modules/labb-faq/labb-faq.php:17
+#: includes/modules/labb-features/labb-features.php:17
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:17
+#: includes/modules/labb-gallery/labb-gallery.php:17
+#: includes/modules/labb-heading/labb-heading.php:17
+#: includes/modules/labb-icon-list/labb-icon-list.php:17
+#: includes/modules/labb-image-slider/labb-image-slider.php:18
+#: includes/modules/labb-odometers/labb-odometers.php:17
+#: includes/modules/labb-piecharts/labb-piecharts.php:17
+#: includes/modules/labb-portfolio/labb-portfolio.php:17
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:17
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:17
+#: includes/modules/labb-services/labb-services.php:17
+#: includes/modules/labb-slider/labb-slider.php:18
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:17
+#: includes/modules/labb-tabs/labb-tabs.php:18
+#: includes/modules/labb-team-members/labb-team-members.php:17
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:17
+#: includes/modules/labb-testimonials/labb-testimonials.php:17
+msgid "Livemesh Addons"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:34
+#: includes/modules/labb-button/labb-button.php:38
+#: includes/modules/labb-clients/labb-clients.php:39
+#: includes/modules/labb-countdown/labb-countdown.php:36
+#: includes/modules/labb-faq/labb-faq.php:39
+#: includes/modules/labb-features/labb-features.php:38
+#: includes/modules/labb-gallery/labb-gallery.php:60
+#: includes/modules/labb-icon-list/labb-icon-list.php:56
+#: includes/modules/labb-image-slider/labb-image-slider.php:64
+#: includes/modules/labb-odometers/labb-odometers.php:36
+#: includes/modules/labb-piecharts/labb-piecharts.php:55
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:204
+#: includes/modules/labb-slider/labb-slider.php:39
+#: includes/modules/labb-team-members/labb-team-members.php:249
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:40
+msgid "Options"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:40
+msgid "Choose Accordion Style"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:43
+#: includes/modules/labb-heading/labb-heading.php:46
+#: includes/modules/labb-image-slider/labb-image-slider.php:79
+#: includes/modules/labb-services/labb-services.php:48
+#: includes/modules/labb-team-members/labb-team-members.php:95
+msgid "Style 1"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:44
+#: includes/modules/labb-heading/labb-heading.php:47
+#: includes/modules/labb-image-slider/labb-image-slider.php:80
+#: includes/modules/labb-services/labb-services.php:49
+#: includes/modules/labb-team-members/labb-team-members.php:96
+msgid "Style 2"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:45
+#: includes/modules/labb-heading/labb-heading.php:48
+#: includes/modules/labb-services/labb-services.php:50
+msgid "Style 3"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:51
+msgid "Allow to function like toggle?"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:52
+msgid "Check if multiple elements can be open at the same time."
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:67
+msgid "Start expanded?"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:68
+msgid ""
+"Check if you need all elements to be expanded initially. Works only if "
+"toggle flag above is checked and hence multiple accordion elements can be "
+"open at the same time."
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:79
+msgid "Panels"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:85
+msgid "Panel"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:102
+msgid "Accordion Panel"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:113
+msgid "Panel Title"
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:114
+msgid "The title for the panel."
+msgstr ""
+
+#: includes/modules/labb-accordion/labb-accordion.php:121
+msgid "Enter the collapsible content of the accordion panel here."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:15
+msgid "Livemesh Button"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:16
+msgid "Flat style buttons with rich set of customization options."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:43
+msgid "The URL to which button should point to."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:44
+#: includes/modules/labb-icon-list/labb-icon-list.php:181
+msgid "Target URL"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:45
+msgid "http://targeturl.com"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:50
+msgid "Open the link in new window"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:55
+msgid "The button title or text. "
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:56
+msgid "Button Title"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:57
+msgid "Buy Now"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:63
+msgid "Button Icon/Image"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:69
+#: includes/modules/labb-icon-list/labb-icon-list.php:151
+#: includes/modules/labb-odometers/labb-odometers.php:109
+#: includes/modules/labb-services/labb-services.php:152
+#: includes/modules/labb-tabs/labb-tabs.php:150
+msgid "Choose Icon Type"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:81
+#: includes/modules/labb-icon-list/labb-icon-list.php:46
+#: includes/modules/labb-icon-list/labb-icon-list.php:133
+#: includes/modules/labb-icon-list/labb-icon-list.php:162
+#: includes/modules/labb-odometers/labb-odometers.php:120
+#: includes/modules/labb-services/labb-services.php:164
+#: includes/modules/labb-tabs/labb-tabs.php:162
+msgid "Icon"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:82
+#: includes/modules/labb-icon-list/labb-icon-list.php:163
+#: includes/modules/labb-odometers/labb-odometers.php:121
+#: includes/modules/labb-services/labb-services.php:165
+#: includes/modules/labb-tabs/labb-tabs.php:163
+msgid "Icon Image"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:89
+msgid "Button Image."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:95
+msgid "Button Icon."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:110
+msgid "The CSS class name for the button element."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:111
+#: includes/modules/labb-image-slider/labb-image-slider.php:71
+#: includes/modules/labb-slider/labb-slider.php:46
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:47
+msgid "Class"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:117
+msgid "Inline CSS styling for the button element."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:118
+msgid "Style"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:124
+msgid "Alignment of the button displayed."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:125
+#: includes/modules/labb-heading/labb-heading.php:113
+msgid "Align"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:128
+#: includes/modules/labb-countdown/labb-countdown.php:60
+#: includes/modules/labb-heading/labb-heading.php:115
+#: includes/modules/labb-icon-list/labb-icon-list.php:76
+msgid "Center"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:129
+#: includes/modules/labb-countdown/labb-countdown.php:58
+#: includes/modules/labb-heading/labb-heading.php:116
+#: includes/modules/labb-icon-list/labb-icon-list.php:74
+msgid "Left"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:130
+#: includes/modules/labb-countdown/labb-countdown.php:59
+#: includes/modules/labb-heading/labb-heading.php:117
+#: includes/modules/labb-icon-list/labb-icon-list.php:75
+msgid "Right"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:137
+#: includes/modules/labb-clients/labb-clients.php:55
+#: includes/modules/labb-faq/labb-faq.php:112
+#: includes/modules/labb-icon-list/labb-icon-list.php:82
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:213
+#: includes/modules/labb-services/labb-services.php:192
+#: includes/modules/labb-team-members/labb-team-members.php:256
+#: includes/modules/labb-testimonials/labb-testimonials.php:128
+msgid "Choose Animation Type"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:147
+msgid "Customize"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:150
+msgid "Customize Button"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:155
+#: includes/modules/labb-image-slider/labb-image-slider.php:338
+msgid "The color of the button."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:156
+#: includes/modules/labb-image-slider/labb-image-slider.php:339
+msgid "Color"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:158
+#: includes/modules/labb-image-slider/labb-image-slider.php:341
+msgid "Default"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:159
+msgid "Custom"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:160
+#: includes/modules/labb-image-slider/labb-image-slider.php:342
+msgid "Black"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:161
+#: includes/modules/labb-image-slider/labb-image-slider.php:343
+msgid "Blue"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:162
+#: includes/modules/labb-image-slider/labb-image-slider.php:344
+msgid "Cyan"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:163
+#: includes/modules/labb-image-slider/labb-image-slider.php:345
+msgid "Green"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:164
+#: includes/modules/labb-image-slider/labb-image-slider.php:346
+msgid "Orange"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:165
+#: includes/modules/labb-image-slider/labb-image-slider.php:347
+msgid "Pink"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:166
+#: includes/modules/labb-image-slider/labb-image-slider.php:348
+msgid "Red"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:167
+#: includes/modules/labb-image-slider/labb-image-slider.php:349
+msgid "Teal"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:168
+#: includes/modules/labb-image-slider/labb-image-slider.php:350
+msgid "Transparent"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:169
+#: includes/modules/labb-image-slider/labb-image-slider.php:351
+msgid "Semi Transparent"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:178
+msgid "Custom color of the button."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:179
+msgid "Custom button color"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:187
+msgid "Hover color of the button."
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:188
+msgid "Custom button hover color"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:193
+#: includes/modules/labb-image-slider/labb-image-slider.php:357
+msgid "Button Size"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:195
+#: includes/modules/labb-image-slider/labb-image-slider.php:359
+msgid "Medium"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:196
+#: includes/modules/labb-image-slider/labb-image-slider.php:360
+msgid "Large"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:197
+#: includes/modules/labb-image-slider/labb-image-slider.php:361
+msgid "Small"
+msgstr ""
+
+#: includes/modules/labb-button/labb-button.php:202
+#: includes/modules/labb-image-slider/labb-image-slider.php:366
+msgid "Display rounded button?"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:17
+msgid "Livemesh Carousel"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:18
+msgid "Display a list of custom HTML content as a carousel."
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:40
+msgid "HTML Elements"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:46
+#: includes/modules/labb-carousel/labb-carousel.php:251
+msgid "HTML Element"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:59
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:68
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:118
+msgid "Carousel Settings"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:65
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:81
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:124
+msgid "Prev/Next Arrows?"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:71
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:87
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:130
+msgid "Show dot indicators for navigation?"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:77
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:93
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:136
+msgid "Pause on mouse hover?"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:83
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:99
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:142
+msgid "Autoplay?"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:84
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:100
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:143
+msgid "Should the carousel autoplay as in a slideshow."
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:90
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:106
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:149
+msgid "Autoplay speed in ms"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:99
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:115
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:158
+msgid "Autoplay animation speed in ms"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:112
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:128
+#: includes/modules/labb-gallery/labb-gallery.php:167
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:170
+msgid "Responsive"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:115
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:131
+#: includes/modules/labb-gallery/labb-gallery.php:171
+msgid "Desktop Options"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:121
+#: includes/modules/labb-carousel/labb-carousel.php:159
+#: includes/modules/labb-carousel/labb-carousel.php:203
+#: includes/modules/labb-faq/labb-faq.php:44
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:137
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:175
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:219
+#: includes/modules/labb-gallery/labb-gallery.php:176
+#: includes/modules/labb-portfolio/labb-portfolio.php:223
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:179
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:217
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:261
+#: includes/modules/labb-services/labb-services.php:59
+#: includes/modules/labb-team-members/labb-team-members.php:108
+#: includes/modules/labb-testimonials/labb-testimonials.php:44
+msgid "Columns per row"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:131
+#: includes/modules/labb-carousel/labb-carousel.php:168
+#: includes/modules/labb-carousel/labb-carousel.php:213
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:147
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:184
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:229
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:189
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:226
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:271
+msgid "Columns to scroll"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:143
+#: includes/modules/labb-carousel/labb-carousel.php:177
+#: includes/modules/labb-carousel/labb-carousel.php:223
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:159
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:193
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:239
+#: includes/modules/labb-gallery/labb-gallery.php:186
+#: includes/modules/labb-gallery/labb-gallery.php:202
+#: includes/modules/labb-gallery/labb-gallery.php:229
+#: includes/modules/labb-portfolio/labb-portfolio.php:233
+#: includes/modules/labb-portfolio/labb-portfolio.php:249
+#: includes/modules/labb-portfolio/labb-portfolio.php:276
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:201
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:235
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:281
+msgid "Gutter"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:144
+#: includes/modules/labb-carousel/labb-carousel.php:178
+#: includes/modules/labb-carousel/labb-carousel.php:224
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:160
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:194
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:240
+#: includes/modules/labb-gallery/labb-gallery.php:203
+#: includes/modules/labb-gallery/labb-gallery.php:230
+#: includes/modules/labb-portfolio/labb-portfolio.php:250
+#: includes/modules/labb-portfolio/labb-portfolio.php:277
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:202
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:236
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:282
+msgid "Space between columns."
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:153
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:169
+#: includes/modules/labb-gallery/labb-gallery.php:196
+msgid "Tablet Options"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:186
+#: includes/modules/labb-carousel/labb-carousel.php:232
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:202
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:248
+#: includes/modules/labb-gallery/labb-gallery.php:212
+#: includes/modules/labb-gallery/labb-gallery.php:239
+#: includes/modules/labb-portfolio/labb-portfolio.php:259
+#: includes/modules/labb-portfolio/labb-portfolio.php:286
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:244
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:290
+msgid "Resolution"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:187
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:203
+#: includes/modules/labb-gallery/labb-gallery.php:213
+#: includes/modules/labb-portfolio/labb-portfolio.php:260
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:245
+msgid "The resolution to treat as a tablet resolution."
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:197
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:213
+#: includes/modules/labb-gallery/labb-gallery.php:223
+msgid "Mobile Options"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:233
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:249
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:291
+msgid "The resolution to treat as a mobile resolution."
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:262
+#: includes/modules/labb-icon-list/labb-icon-list.php:144
+#: includes/modules/labb-slider/labb-slider.php:178
+msgid "Title"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:263
+msgid "The title to identify the HTML element"
+msgstr ""
+
+#: includes/modules/labb-carousel/labb-carousel.php:269
+msgid "The HTML content for the carousel item."
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:15
+msgid "Livemesh Clients"
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:16
+msgid "Display one or more clients in a multi-column grid."
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:45
+msgid "Clients per row"
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:63
+msgid "Clients"
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:69
+msgid "Client"
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:86
+msgid "Add Client"
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:98
+msgid "Client Name"
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:99
+msgid "The name of the client/customer."
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:104
+msgid "Client URL"
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:105
+msgid "The website of the client/customer."
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:110
+msgid "Client Logo"
+msgstr ""
+
+#: includes/modules/labb-clients/labb-clients.php:111
+msgid "The logo image for the client/customer."
+msgstr ""
+
+#: includes/modules/labb-countdown/labb-countdown.php:15
+msgid "Livemesh Countdown"
+msgstr ""
+
+#: includes/modules/labb-countdown/labb-countdown.php:16
+msgid "Display a countdown timer for an end date."
+msgstr ""
+
+#: includes/modules/labb-countdown/labb-countdown.php:42
+msgid "Countdown Label"
+msgstr ""
+
+#: includes/modules/labb-countdown/labb-countdown.php:43
+msgid "The label for the countdown."
+msgstr ""
+
+#: includes/modules/labb-countdown/labb-countdown.php:49
+msgid "End date"
+msgstr ""
+
+#: includes/modules/labb-countdown/labb-countdown.php:50
+msgid "The end date for the countdown."
+msgstr ""
+
+#: includes/modules/labb-countdown/labb-countdown.php:55
+#: includes/modules/labb-icon-list/labb-icon-list.php:71
+msgid "Alignment"
+msgstr ""
+
+#: includes/modules/labb-faq/labb-faq.php:15
+msgid "Livemesh FAQ"
+msgstr ""
+
+#: includes/modules/labb-faq/labb-faq.php:16
+msgid "Capture frequently asked questions in a multi-column grid."
+msgstr ""
+
+#: includes/modules/labb-faq/labb-faq.php:55
+#: includes/modules/labb-faq/labb-faq.php:77
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/modules/labb-faq/labb-faq.php:60
+msgid "FAQ Item"
+msgstr ""
+
+#: includes/modules/labb-faq/labb-faq.php:88
+msgid "Question"
+msgstr ""
+
+#: includes/modules/labb-faq/labb-faq.php:89
+msgid "The question for the FAQ item."
+msgstr ""
+
+#: includes/modules/labb-faq/labb-faq.php:96
+msgid "The HTML content as answer for the FAQ item."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:15
+msgid "Livemesh Features"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:16
+msgid "Display product features or services offered."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:43
+msgid "Features Container Class"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:44
+msgid "The CSS class for the features container DIV element."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:49
+msgid "Apply tiled design?"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:56
+msgid "Features"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:61
+#: includes/modules/labb-features/labb-features.php:77
+msgid "Feature"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:88
+msgid "Feature Title"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:89
+msgid "The title for the feature."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:95
+msgid "Feature Subtitle"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:96
+msgid "The subtitle for the feature."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:103
+msgid "Feature Image."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:104
+msgid ""
+"An icon image or a bitmap which best represents the feature we are capturing"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:111
+msgid "The feature content."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:113
+msgid "Feature content goes here."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:129
+msgid "Feature Class"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:130
+msgid "The CSS class for the feature DIV element."
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:134
+msgid "Animation for Feature Image"
+msgstr ""
+
+#: includes/modules/labb-features/labb-features.php:141
+msgid "Animation for Feature Text"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:15
+msgid "Livemesh Gallery Carousel"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:16
+msgid "Display images or videos in a responsive carousel."
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:49
+#: includes/modules/labb-gallery/labb-gallery.php:73
+msgid "Gallery Items"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:55
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:267
+#: includes/modules/labb-gallery/labb-gallery.php:79
+#: includes/modules/labb-gallery/labb-gallery.php:258
+msgid "Gallery Item"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:74
+#: includes/modules/labb-gallery/labb-gallery.php:113
+msgid "Enable Lightbox Gallery?"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:278
+#: includes/modules/labb-gallery/labb-gallery.php:269
+msgid "Item Type"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:279
+#: includes/modules/labb-gallery/labb-gallery.php:270
+msgid ""
+"Specify the item type - if this is an image or represents a YouTube/Vimeo "
+"video."
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:293
+#: includes/modules/labb-gallery/labb-gallery.php:284
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:144
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:181
+#: includes/modules/labb-testimonials/labb-testimonials.php:102
+msgid "Image"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:294
+#: includes/modules/labb-gallery/labb-gallery.php:285
+msgid "YouTube Video"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:295
+#: includes/modules/labb-gallery/labb-gallery.php:286
+msgid "Vimeo Video"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:301
+#: includes/modules/labb-gallery/labb-gallery.php:292
+msgid "Item Label"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:302
+#: includes/modules/labb-gallery/labb-gallery.php:293
+msgid "The label or name for the gallery item."
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:307
+#: includes/modules/labb-gallery/labb-gallery.php:298
+msgid "Gallery Image"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:308
+#: includes/modules/labb-gallery/labb-gallery.php:299
+msgid ""
+"The image for the gallery item. If item type chosen is YouTube or Vimeo "
+"video, the image will be used as a placeholder image for video."
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:313
+#: includes/modules/labb-gallery/labb-gallery.php:304
+msgid "Item Tag(s)"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:314
+#: includes/modules/labb-gallery/labb-gallery.php:305
+msgid ""
+"One or more comma separated tags for the gallery item. Useful when items are "
+"made filterable."
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:319
+#: includes/modules/labb-gallery/labb-gallery.php:310
+msgid "Page URL"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:320
+#: includes/modules/labb-gallery/labb-gallery.php:311
+msgid ""
+"The URL of the page to which the image gallery item points to (optional)."
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:325
+#: includes/modules/labb-gallery/labb-gallery.php:316
+msgid "Video URL"
+msgstr ""
+
+#: includes/modules/labb-gallery-carousel/labb-gallery-carousel.php:326
+#: includes/modules/labb-gallery/labb-gallery.php:317
+msgid "The URL of the YouTube or Vimeo video."
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:15
+msgid "Livemesh Gallery"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:16
+msgid "Display images or videos in a multi-column grid."
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:66
+#: includes/modules/labb-portfolio/labb-portfolio.php:73
+msgid "Heading for the grid"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:97
+#: includes/modules/labb-portfolio/labb-portfolio.php:213
+msgid "Choose a layout for the grid"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:100
+#: includes/modules/labb-portfolio/labb-portfolio.php:216
+msgid "Fit Rows"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:101
+#: includes/modules/labb-portfolio/labb-portfolio.php:217
+msgid "Masonry"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:107
+#: includes/modules/labb-portfolio/labb-portfolio.php:79
+msgid "Filterable?"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:119
+#: includes/modules/labb-gallery/labb-gallery.php:125
+#: includes/modules/labb-portfolio/labb-portfolio.php:119
+msgid "Pagination"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:126
+#: includes/modules/labb-portfolio/labb-portfolio.php:120
+msgid ""
+"Choose pagination type or choose None if no pagination is desired. Make sure "
+"you enter the items per page value in the option 'Number of items to be "
+"displayed per page and on each load more invocation' field below to control "
+"number of items to display per page."
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:130
+#: includes/modules/labb-portfolio/labb-portfolio.php:124
+msgid "Paged"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:150
+#: includes/modules/labb-portfolio/labb-portfolio.php:144
+msgid "Display count of items yet to be loaded with the load more button?"
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:156
+msgid ""
+"Number of items to be displayed per page and on each load more invocation."
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:187
+#: includes/modules/labb-portfolio/labb-portfolio.php:234
+msgid "Space between columns in masonry grid."
+msgstr ""
+
+#: includes/modules/labb-gallery/labb-gallery.php:240
+#: includes/modules/labb-portfolio/labb-portfolio.php:287
+msgid "The resolution in pixels to treat as a mobile resolution."
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:15
+msgid "Livemesh Heading"
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:16
+msgid "Create heading for display on the top of a section."
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:43
+#: includes/modules/labb-services/labb-services.php:41
+#: includes/modules/labb-team-members/labb-team-members.php:88
+msgid "Choose Style"
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:67
+msgid "Content"
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:73
+msgid "Heading Title"
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:74
+msgid "Title for the heading."
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:80
+msgid "Subheading"
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:81
+msgid "A subtitle displayed above the title heading."
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:91
+msgid "Short Text"
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:92
+msgid "Short text generally displayed below the heading title."
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:112
+msgid "Alignment of the heading."
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:125
+msgid "Heading font"
+msgstr ""
+
+#: includes/modules/labb-heading/labb-heading.php:134
+msgid "Choose Animation"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:15
+msgid "Livemesh Icon List"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:16
+msgid ""
+"Use images or icon fonts to create social icons list, show payment options "
+"etc."
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:37
+msgid "Add Icons"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:40
+msgid "Icon List"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:65
+msgid "Open the links in new window"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:90
+#: includes/modules/labb-services/labb-services.php:89
+msgid "Customize Icon"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:96
+msgid "Icon/Image size in pixels"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:108
+msgid "Icon color"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:114
+msgid "Icon hover color"
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:145
+msgid "Title for the Icon."
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:170
+msgid "Icon Image."
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:176
+msgid "Icon."
+msgstr ""
+
+#: includes/modules/labb-icon-list/labb-icon-list.php:182
+msgid "The URL to which icon/image should point to. (optional)"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:16
+msgid "Livemesh Image Slider"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:17
+msgid "Create a responsive image slider."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:70
+#: includes/modules/labb-slider/labb-slider.php:45
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:46
+msgid "Set a unique CSS class for the slider. (optional)."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:76
+msgid "Choose Caption Style"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:88
+msgid "Image Slides"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:94
+#: includes/modules/labb-image-slider/labb-image-slider.php:265
+msgid "Image Slide"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:107
+#: includes/modules/labb-slider/labb-slider.php:72
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:73
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:113
+msgid "Select slider type."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:114
+msgid "Slider Type"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:116
+msgid "Flex Slider"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:117
+msgid "Nivo Slider"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:118
+msgid "Slick Slider"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:119
+msgid "Responsive Slider"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:140
+#: includes/modules/labb-slider/labb-slider.php:78
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:79
+msgid "Select your animation type."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:141
+#: includes/modules/labb-slider/labb-slider.php:79
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:80
+msgid "Animation"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:143
+#: includes/modules/labb-slider/labb-slider.php:81
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:82
+msgid "Slide"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:144
+#: includes/modules/labb-slider/labb-slider.php:82
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:83
+msgid "Fade"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:154
+#: includes/modules/labb-slider/labb-slider.php:88
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:89
+msgid "Select the sliding direction."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:155
+#: includes/modules/labb-slider/labb-slider.php:89
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:90
+msgid "Sliding Direction"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:157
+#: includes/modules/labb-slider/labb-slider.php:91
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:92
+msgid "Horizontal"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:158
+#: includes/modules/labb-slider/labb-slider.php:92
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:93
+msgid "Vertical"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:169
+#: includes/modules/labb-slider/labb-slider.php:98
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:99
+msgid "Create navigation for paging control of each slide?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:170
+#: includes/modules/labb-slider/labb-slider.php:99
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:100
+msgid "Control navigation?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:175
+#: includes/modules/labb-slider/labb-slider.php:104
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:105
+msgid "Create navigation for previous/next navigation?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:176
+#: includes/modules/labb-slider/labb-slider.php:105
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:106
+msgid "Direction navigation?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:181
+msgid "Use thumbnails for Control Nav?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:182
+msgid "Thumbnails Navigation?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:192
+#: includes/modules/labb-slider/labb-slider.php:110
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:111
+msgid "Randomize slide order?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:193
+#: includes/modules/labb-slider/labb-slider.php:111
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:112
+msgid "Randomize slides?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:204
+#: includes/modules/labb-slider/labb-slider.php:116
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:117
+msgid ""
+"Pause the slideshow when hovering over slider, then resume when no longer "
+"hovering."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:205
+#: includes/modules/labb-slider/labb-slider.php:117
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:118
+msgid "Pause on hover?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:210
+#: includes/modules/labb-slider/labb-slider.php:122
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:123
+msgid "Pause the slideshow when interacting with control elements."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:211
+#: includes/modules/labb-slider/labb-slider.php:123
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:124
+msgid "Pause on action?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:220
+#: includes/modules/labb-slider/labb-slider.php:128
+msgid "Should the animation loop?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:221
+#: includes/modules/labb-slider/labb-slider.php:129
+msgid "Loop"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:231
+#: includes/modules/labb-slider/labb-slider.php:134
+msgid "Animate slider automatically without user intervention?"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:232
+#: includes/modules/labb-slider/labb-slider.php:135
+msgid "Slideshow"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:237
+#: includes/modules/labb-slider/labb-slider.php:140
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:129
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:238
+#: includes/modules/labb-slider/labb-slider.php:141
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:130
+msgid "Slideshow speed"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:246
+#: includes/modules/labb-slider/labb-slider.php:149
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:138
+msgid "Set the speed of animations, in milliseconds."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:247
+#: includes/modules/labb-slider/labb-slider.php:150
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:139
+msgid "Animation speed"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:276
+#: includes/modules/labb-team-members/labb-team-members.php:152
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:167
+#: includes/modules/labb-testimonials/labb-testimonials.php:88
+msgid "Name"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:277
+msgid "The title to identify the slide"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:282
+msgid "Slide Image"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:283
+msgid "The image for the slide."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:288
+msgid "URL to link to by image and caption heading."
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:289
+msgid ""
+"Specify the URL to which the slide image and caption heading should link to. "
+"(optional)"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:298
+msgid "Caption"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:306
+msgid "Caption Heading"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:310
+msgid "Caption Sub-heading"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:321
+msgid "Button text"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:329
+msgid "Button URL"
+msgstr ""
+
+#: includes/modules/labb-image-slider/labb-image-slider.php:333
+msgid "Open URL in a new window"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:15
+msgid "Livemesh Odometers"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:16
+msgid ""
+"Display one or more animated odometer statistics in a multi-column grid."
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:42
+msgid "Odometers per row"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:53
+msgid "Odometers"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:59
+#: includes/modules/labb-odometers/labb-odometers.php:75
+msgid "Odometer"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:86
+#: includes/modules/labb-piecharts/labb-piecharts.php:105
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:68
+msgid "Stats Title"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:87
+msgid "The title for the odometer stats"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:93
+msgid "Start Value"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:94
+msgid "The start value for the odometer stats."
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:101
+msgid "Stop Value"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:102
+msgid "The stop value for the odometer stats."
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:128
+msgid "Stats Image."
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:134
+msgid "Stats Icon."
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:139
+msgid "Prefix String"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:140
+msgid "Examples include currency symbols like $ to indicate a monetary value."
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:146
+msgid "Suffix String"
+msgstr ""
+
+#: includes/modules/labb-odometers/labb-odometers.php:147
+msgid "Examples include strings like hr for hours or m for million."
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:15
+msgid "Livemesh Piecharts"
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:16
+msgid ""
+"Display one or more piecharts depicting a percentage value in a multi-column "
+"grid."
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:39
+msgid "Piecharts"
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:45
+#: includes/modules/labb-piecharts/labb-piecharts.php:94
+msgid "Piechart"
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:63
+msgid "Piecharts per row"
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:72
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:85
+msgid "Bar color"
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:79
+msgid "Track color"
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:106
+msgid "The title for the piechart"
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:112
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:75
+msgid "Percentage Value"
+msgstr ""
+
+#: includes/modules/labb-piecharts/labb-piecharts.php:113
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:76
+msgid "The percentage value for the stats."
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:15
+msgid "Livemesh Grid"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:16
+msgid "Display posts or custom post types in a multi-column grid."
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:60
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:36
+msgid "Loop Query"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:67
+msgid "Grid Settings"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:85
+msgid "Choose the taxonomy to display and filter on."
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:86
+msgid ""
+"Choose the taxonomy information to display for posts/portfolio and the "
+"taxonomy that is used to filter the portfolio/post. Takes effect only if no "
+"taxonomy filters are specified when building query."
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:94
+msgid "Link the image to the post/portfolio?"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:99
+msgid "Enable Lightbox?"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:106
+msgid "Pagination Settings"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:113
+msgid ""
+"Number of items to be displayed per page or on each load more invocation."
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:154
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:70
+msgid "Post Content"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:157
+msgid "Post Content Settings"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:163
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:75
+msgid "Display project title below the post/portfolio?"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:169
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:81
+msgid "Display project excerpt/summary below the post/portfolio?"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:175
+msgid "Post Meta Settings"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:181
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:93
+msgid "Display post author info below the post item?"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:187
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:99
+msgid "Display post date info below the post item?"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:193
+msgid ""
+"Display taxonomy info below the post item? Choose the right taxonomy in Grid "
+"Settings section."
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:203
+msgid "Layout"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:207
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:173
+msgid "Desktop Settings"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:243
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:211
+msgid "Tablet Settings"
+msgstr ""
+
+#: includes/modules/labb-portfolio/labb-portfolio.php:270
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:255
+msgid "Mobile Settings"
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:15
+msgid "Livemesh Posts Carousel"
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:16
+msgid "Display blog posts or custom post types as a carousel."
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:41
+msgid "Grid Options"
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:49
+msgid "Number of posts to be displayed."
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:55
+msgid "Choose the taxonomy to display info."
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:56
+msgid ""
+"Choose the taxonomy to use for display of taxonomy information for posts/"
+"custom post types."
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:64
+msgid "Link Images to Posts?"
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:87
+msgid "Post Meta"
+msgstr ""
+
+#: includes/modules/labb-posts-carousel/labb-posts-carousel.php:105
+msgid "Display taxonomy info below the post item?"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:15
+msgid "Livemesh Pricing Table"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:16
+msgid "Display pricing plans in a multi-column grid."
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:86
+msgid "Pricing plans per row"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:97
+msgid "Pricing Plans"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:103
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:119
+msgid "Pricing Plan"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:130
+msgid "Pricing Plan Title"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:131
+msgid "The title for the pricing plan"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:137
+msgid "Tagline Text"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:138
+msgid ""
+"Provide any subtitle or taglines like \"Most Popular\", \"Best Value\", "
+"\"Best Selling\", \"Most Flexible\" etc. that you would like to use for this "
+"pricing plan."
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:150
+msgid "Price Tag"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:151
+msgid "Enter the price tag for the pricing plan. HTML is accepted."
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:157
+msgid "Highlight Pricing Plan"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:158
+msgid "Specify if you want to highlight the pricing plan."
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:163
+msgid "Pricing Plan Details"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:164
+msgid ""
+"Enter the content for the pricing plan that include information about "
+"individual features of the pricing plan. For prebuilt styling, enter "
+"shortcodes content like - [labb_pricing_item title=\"Storage Space\" value="
+"\"50 GB\"] [labb_pricing_item title=\"Video Uploads\" value=\"50\"]"
+"[labb_pricing_item title=\"Portfolio Items\" value=\"20\"]"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:174
+msgid "Pricing Button"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:181
+msgid "Text for Pricing Link/Button"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:182
+msgid ""
+"Provide the text for the link or the button shown for this pricing plan."
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:188
+msgid "URL for the Pricing link/button"
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:189
+msgid ""
+"Provide the target URL for the link or the button shown for this pricing "
+"plan."
+msgstr ""
+
+#: includes/modules/labb-pricing-table/labb-pricing-table.php:195
+msgid "Open Button URL in a new window"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:15
+msgid "Livemesh Services"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:16
+msgid "Capture services in a multi-column grid."
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:51
+msgid "Style 4"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:52
+msgid "Style 5"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:70
+msgid "Services"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:76
+#: includes/modules/labb-services/labb-services.php:127
+msgid "Service"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:86
+msgid "Styling"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:95
+msgid "Icon Custom Size"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:96
+msgid "Specify a custom size for the font icon in pixels."
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:105
+msgid "Icon Custom Color"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:106
+msgid "Specify a custom color for the font icon."
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:112
+msgid "Icon Custom Hover Color"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:113
+msgid "Specify a custom hover color for the font icon."
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:138
+msgid "Service Title"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:139
+msgid "Title of the service."
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:145
+msgid "Short description"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:146
+msgid "Provide a short description for the service"
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:172
+msgid "Service Image."
+msgstr ""
+
+#: includes/modules/labb-services/labb-services.php:178
+msgid "Service Icon."
+msgstr ""
+
+#: includes/modules/labb-slider/labb-slider.php:16
+msgid "Livemesh Slider"
+msgstr ""
+
+#: includes/modules/labb-slider/labb-slider.php:17
+msgid "Create a responsive slider of custom HTML content."
+msgstr ""
+
+#: includes/modules/labb-slider/labb-slider.php:53
+msgid "Slides"
+msgstr ""
+
+#: includes/modules/labb-slider/labb-slider.php:59
+#: includes/modules/labb-slider/labb-slider.php:167
+msgid "HTML Slide"
+msgstr ""
+
+#: includes/modules/labb-slider/labb-slider.php:179
+msgid "The title to identify the HTML slide"
+msgstr ""
+
+#: includes/modules/labb-slider/labb-slider.php:185
+msgid "The HTML content for the slide."
+msgstr ""
+
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:15
+msgid "Livemesh Stats Bars"
+msgstr ""
+
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:16
+msgid ""
+"Display multiple stats bars that talk about skills or other percentage stats."
+msgstr ""
+
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:35
+msgid "Stats Bars"
+msgstr ""
+
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:41
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:57
+msgid "Stats Bar"
+msgstr ""
+
+#: includes/modules/labb-stats-bar/labb-stats-bar.php:69
+msgid "The title for the stats bar"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:16
+msgid "Livemesh Tabs"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:17
+msgid "Display tabbed content in variety of styles."
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:47
+msgid "Choose Tab Style"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:54
+msgid "Tab Style 1"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:55
+msgid "Tab Style 2"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:56
+msgid "Tab Style 3"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:57
+msgid "Tab Style 4"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:58
+msgid "Tab Style 5"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:59
+msgid "Tab Style 6"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:60
+msgid "Vertical Tab Style 1"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:61
+msgid "Vertical Tab Style 2"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:62
+msgid "Vertical Tab Style 3"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:63
+msgid "Vertical Tab Style 4"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:70
+msgid "Tab highlight color"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:80
+msgid "Mobile Resolution"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:81
+msgid ""
+"The px resolution to treat as a mobile resolution for invoking responsive "
+"tabs."
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:91
+msgid "Tab Panes"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:97
+#: includes/modules/labb-tabs/labb-tabs.php:114
+msgid "Tab Pane"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:125
+msgid "Tab Title"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:126
+msgid "The title for the tab shown as name for tab navigation."
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:133
+msgid "The content of the tab."
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:142
+msgid "Tab Icon"
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:170
+msgid "Tab Image."
+msgstr ""
+
+#: includes/modules/labb-tabs/labb-tabs.php:176
+msgid "Tab Icon."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:15
+msgid "Livemesh Team Members"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:16
+msgid "Display a list of your team members optionally in a multi-column grid."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:51
+msgid "Send an email"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:53
+msgid "Follow on Facebook"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:55
+msgid "Subscribe to Twitter Feed"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:57
+msgid "View LinkedIn Profile"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:59
+msgid "Follow on Google Plus"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:61
+msgid "View Instagram Feed"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:63
+msgid "Subscribe to Pinterest Feed"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:65
+msgid "View Dribbble Portfolio"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:119
+msgid "Team Members"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:125
+#: includes/modules/labb-team-members/labb-team-members.php:141
+msgid "Team Member"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:153
+msgid "Name of the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:159
+msgid "Team member image."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:165
+msgid "Position"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:166
+msgid "Specify the position/title of the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:172
+msgid "Short details"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:173
+msgid "Provide a short writeup for the team member"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:183
+msgid "Social Profile"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:191
+msgid "Email Address"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:192
+msgid "Enter the email address of the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:198
+msgid "Facebook Page URL"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:199
+msgid "URL of the Facebook page of the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:205
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:206
+msgid "URL of the Twitter page of the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:212
+msgid "LinkedIn Page URL"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:213
+msgid "URL of the LinkedIn profile of the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:219
+msgid "Pinterest Page URL"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:220
+msgid "URL of the Pinterest page for the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:226
+msgid "Dribbble Profile URL"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:227
+msgid "URL of the Dribbble profile of the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:233
+msgid "GooglePlus Page URL"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:234
+msgid "URL of the Google Plus page of the team member."
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:240
+msgid "Instagram Page URL"
+msgstr ""
+
+#: includes/modules/labb-team-members/labb-team-members.php:241
+msgid "URL of the Instagram feed for the team member."
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:15
+msgid "Livemesh Testimonials Slider"
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:16
+msgid ""
+"Display responsive touch friendly slider of testimonials from clients/"
+"customers."
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:54
+#: includes/modules/labb-testimonials/labb-testimonials.php:55
+msgid "Testimonials"
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:60
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:156
+#: includes/modules/labb-testimonials/labb-testimonials.php:61
+#: includes/modules/labb-testimonials/labb-testimonials.php:77
+msgid "Testimonial"
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:168
+#: includes/modules/labb-testimonials/labb-testimonials.php:89
+msgid "The author of the testimonial"
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:174
+#: includes/modules/labb-testimonials/labb-testimonials.php:95
+msgid "Author Details"
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:175
+#: includes/modules/labb-testimonials/labb-testimonials.php:96
+msgid ""
+"The details of the author like company name, position held, company URL etc. "
+"HTML accepted."
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:188
+#: includes/modules/labb-testimonials/labb-testimonials.php:109
+msgid "What your customer had to say"
+msgstr ""
+
+#: includes/modules/labb-testimonials-slider/labb-testimonials-slider.php:189
+#: includes/modules/labb-testimonials/labb-testimonials.php:110
+msgid "The testimonials text goes here"
+msgstr ""
+
+#: includes/modules/labb-testimonials/labb-testimonials.php:15
+msgid "Livemesh Testimonials"
+msgstr ""
+
+#: includes/modules/labb-testimonials/labb-testimonials.php:16
+msgid ""
+"Display testimonials from your clients/customers in a multi-column grid."
+msgstr ""
+
+#: livemesh-bb-addons.php:74 livemesh-bb-addons.php:83
+msgid "Cheatin&#8217; huh?"
+msgstr ""

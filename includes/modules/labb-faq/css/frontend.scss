@@ -1,0 +1,47 @@
+@import "../../../../assets/css/labb-lib";
+
+/* Style 1 */
+.labb-faq-list.labb-style1 {
+  .labb-faq-item {
+    text-align: left;
+    .labb-faq-question {
+      }
+    .labb-faq-answer {
+      margin-top: 20px;
+      }
+    }
+  }
+/* Style 2 */
+
+.labb-faq-list.labb-style2 {
+  .labb-faq-item {
+    text-align: center;
+    .labb-faq-question {
+      }
+    .labb-faq-answer {
+      margin-bottom: 20px;
+      }
+    }
+  }
+/* -------- General FAQ Styling -------- */
+
+.labb-faq-list {
+  .labb-faq-item {
+    margin-bottom: 60px;
+    font-size: 15px;
+    line-height: 24px;
+    .labb-faq-question {
+      font-size: 24px;
+      line-height: 32px;
+      text-transform: none;
+      font-weight: bold;
+      color: #333;
+      }
+    .labb-dark-bg & {
+      color: #909090;
+      .labb-faq-question {
+        color: #e5e5e5;
+        }
+      }
+    }
+  }

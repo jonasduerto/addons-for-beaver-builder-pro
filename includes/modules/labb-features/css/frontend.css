@@ -1,0 +1,74 @@
+/* Features */
+@media only screen and (max-width: 767px) {
+  .labb-features .labb-feature {
+    margin-bottom: 50px; } }
+.labb-features .labb-feature:last-child {
+  margin-bottom: 0 !important; }
+.labb-features .labb-feature .labb-subtitle {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ACB2BF;
+  margin-bottom: 5px; }
+  @media only screen and (max-width: 767px) {
+    .labb-features .labb-feature .labb-subtitle {
+      font-size: 12px;
+      line-height: 18px; } }
+.labb-features .labb-feature .labb-title {
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 15px; }
+  @media only screen and (max-width: 1024px) {
+    .labb-features .labb-feature .labb-title {
+      font-size: 26px;
+      line-height: 36px; } }
+.labb-features .labb-feature .labb-feature-details {
+  color: #9297A3;
+  font-size: 14px;
+  line-height: 24px; }
+  @media only screen and (max-width: 767px) {
+    .labb-features .labb-feature .labb-feature-details {
+      font-size: 13px;
+      line-height: 22px; } }
+@media only screen and (min-width: 768px) {
+  .labb-features .labb-feature .labb-text-content {
+    max-width: 520px;
+    padding: 0 50px; }
+    .siteorigin-panels-stretch[data-stretch-type="full-stretched"] .labb-features .labb-feature .labb-text-content {
+      max-width: 600px; }
+  .labb-features .labb-feature:nth-child(even) .labb-image-content {
+    -webkit-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+    -moz-order: 2;
+    order: 2;
+    -ms-flex-order: 2; }
+  .labb-features .labb-feature:nth-child(even) .labb-text-content {
+    -webkit-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+    -moz-order: 1;
+    order: 1;
+    -ms-flex-order: 1; } }
+
+@media only screen and (min-width: 768px) {
+  .labb-features:not(.labb-tiled) .labb-feature {
+    margin-bottom: 80px; }
+    .labb-features:not(.labb-tiled) .labb-feature .labb-image-content {
+      max-width: 520px; }
+      .siteorigin-panels-stretch[data-stretch-type="full-stretched"] .labb-features:not(.labb-tiled) .labb-feature .labb-image-content {
+        margin: 0 auto; }
+    .siteorigin-panels-stretch[data-stretch-type="full-stretched"] .labb-features:not(.labb-tiled) .labb-feature .labb-text-content {
+      margin: 0 auto; } }
+
+.labb-features.labb-tiled .labb-feature .labb-text-content {
+  margin: 0 auto;
+  /* Center the text */ }
+  @media only screen and (max-width: 767px) {
+    .siteorigin-panels-stretch[data-stretch-type="full-stretched"] .labb-features.labb-tiled .labb-feature .labb-text-content {
+      padding: 0 20px; } }
+.labb-features.labb-tiled .labb-feature .labb-image-content img {
+  width: 100%; }
+
+/*# sourceMappingURL=frontend.css.map */

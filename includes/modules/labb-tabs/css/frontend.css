@@ -1,0 +1,668 @@
+@-webkit-keyframes labb-fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes labb-fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/* ---------- General tab styles ---------- */
+.labb-tabs {
+  position: relative;
+  overflow: hidden; }
+  .labb-tabs .labb-tab-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+    .labb-tabs .labb-tab-nav .labb-tab {
+      text-align: center;
+      -webkit-box-flex: 0;
+      box-flex: 0;
+      -moz-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto; }
+      .labb-tabs .labb-tab-nav .labb-tab a {
+        display: block;
+        text-overflow: ellipsis;
+        white-space: normal;
+        padding: 20px 40px;
+        text-decoration: none;
+        border: none;
+        margin: 0;
+        outline: none;
+        -webkit-transition: color .3s ease-in-out 0s;
+        transition: color .3s ease-in-out 0s; }
+        @media only screen and (max-width: 1024px) {
+          .labb-tabs .labb-tab-nav .labb-tab a {
+            padding: 20px 25px; } }
+      .labb-tabs .labb-tab-nav .labb-tab span.labb-icon-wrapper span {
+        font-size: 32px;
+        font-weight: 400;
+        vertical-align: middle;
+        margin-right: 10px; }
+      .labb-tabs .labb-tab-nav .labb-tab span.labb-image-wrapper img {
+        max-width: 24px;
+        display: inline-block;
+        vertical-align: middle;
+        height: auto;
+        width: auto;
+        padding: 0;
+        margin: 0 10px 0 0;
+        border: none; }
+      .labb-tabs .labb-tab-nav .labb-tab span.labb-tab-title {
+        font-size: 14px;
+        line-height: 1;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+  .labb-tabs .labb-tab-panes {
+    position: relative; }
+    .labb-tabs .labb-tab-panes .labb-tab-pane {
+      padding: 40px;
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      left: -9999px; }
+      .labb-tabs .labb-tab-panes .labb-tab-pane.labb-active {
+        position: static;
+        left: 0;
+        -webkit-animation: labb-fade 0.3s ease-in-out;
+                animation: labb-fade 0.3s ease-in-out; }
+
+/* ----- Fallback for IE 8/9 ----- */
+.labb-no-flexbox .labb-tab-nav {
+  display: block; }
+  .labb-no-flexbox .labb-tab-nav .labb-tab {
+    min-width: 15%;
+    display: inline-block; }
+
+/* ------------- Vertical tab styles ----------------- */
+.labb-tabs.labb-vertical {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .labb-tabs.labb-vertical .labb-tab-nav {
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -moz-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: normal;
+    box-direction: normal;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .labb-tabs.labb-vertical .labb-tab-panes {
+    -webkit-box-flex: 4;
+    box-flex: 4;
+    -moz-flex: 4 1 auto;
+    -ms-flex: 4 1 auto;
+    flex: 4 1 auto; }
+  .labb-tabs.labb-vertical.labb-mobile-layout {
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: normal;
+    box-direction: normal;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column; }
+
+/* --------- Tab navigation in mobile ------------- */
+.labb-tab-mobile-menu {
+  display: none;
+  /* Hide on desktop */
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  z-index: 10; }
+  .labb-tab-mobile-menu i {
+    font-size: 18px;
+    color: #777;
+    font-weight: bold; }
+
+.labb-tabs.labb-mobile-layout .labb-tab-mobile-menu {
+  display: block;
+  /* Show on mobile only */ }
+.labb-tabs.labb-mobile-layout .labb-tab-nav {
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-direction: normal;
+  box-direction: normal;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  cursor: pointer; }
+  .labb-tabs.labb-mobile-layout .labb-tab-nav .labb-tab {
+    text-align: center;
+    display: none; }
+    .labb-tabs.labb-mobile-layout .labb-tab-nav .labb-tab.labb-active {
+      display: block; }
+.labb-tabs.labb-mobile-layout.labb-mobile-open {
+  /* Open all tab navs and change the expand menu button to close button */ }
+  .labb-tabs.labb-mobile-layout.labb-mobile-open .labb-tab-nav .labb-tab {
+    display: block; }
+  .labb-tabs.labb-mobile-layout.labb-mobile-open .labb-tab-mobile-menu i:before {
+    content: '\e911'; }
+
+/* ------------- Style 1 ----------------- */
+.labb-tabs.style1 .labb-tab-nav .labb-tab {
+  border-left: 1px solid #d9d9d9;
+  border-bottom: 1px solid #e2e2e2;
+  background: #e9e9e9; }
+  .labb-tabs.style1 .labb-tab-nav .labb-tab:first-child {
+    border-left-color: transparent;
+    border-radius: 5px 0 0 0; }
+  .labb-tabs.style1 .labb-tab-nav .labb-tab:last-child {
+    border-radius: 0 5px 0 0; }
+  .labb-tabs.style1 .labb-tab-nav .labb-tab.labb-active {
+    border-bottom: none;
+    background: #f2f2f2; }
+  .labb-tabs.style1 .labb-tab-nav .labb-tab a {
+    color: #777; }
+    .labb-tabs.style1 .labb-tab-nav .labb-tab a:hover, .labb-tabs.style1 .labb-tab-nav .labb-tab a:focus {
+      color: #333; }
+  .labb-tabs.style1 .labb-tab-nav .labb-tab.labb-active a {
+    color: #333; }
+.labb-tabs.style1 .labb-tab-panes {
+  background: #f2f2f2;
+  border-radius: 0 4px 4px 4px; }
+
+.labb-tabs.style1.labb-mobile-layout:not(.labb-mobile-open) .labb-tab.labb-active {
+  background: #eeeeee; }
+.labb-tabs.style1.labb-mobile-layout .labb-tab {
+  border-left: none;
+  border-bottom-color: #d9d9d9; }
+  .labb-tabs.style1.labb-mobile-layout .labb-tab:first-child {
+    border-radius: 5px 5px 0 0; }
+  .labb-tabs.style1.labb-mobile-layout .labb-tab:last-child {
+    border-radius: 0; }
+.labb-tabs.style1.labb-mobile-layout .labb-tab-panes {
+  border-radius: 0; }
+
+/* -------- Style 2 ----------- */
+.labb-tabs.style2 .labb-tab-nav {
+  background: #f2f2f2;
+  border-radius: 5px 5px 0 0;
+  padding: 0 30px; }
+  .labb-tabs.style2 .labb-tab-nav .labb-tab {
+    padding: 20px 10px;
+    position: relative; }
+    .labb-tabs.style2 .labb-tab-nav .labb-tab a {
+      display: inline-block;
+      padding: 5px 20px;
+      border-radius: 34px;
+      color: #666;
+      -webkit-transition: all .3s ease-in-out 0s;
+      transition: all .3s ease-in-out 0s; }
+      .labb-tabs.style2 .labb-tab-nav .labb-tab a:hover, .labb-tabs.style2 .labb-tab-nav .labb-tab a:focus {
+        color: #888; }
+    .labb-tabs.style2 .labb-tab-nav .labb-tab.labb-active:after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 8px;
+      margin: 0 auto;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid #3c3d41; }
+    .labb-tabs.style2 .labb-tab-nav .labb-tab.labb-active a {
+      background: #838d8f;
+      color: #fff; }
+.labb-tabs.style2 .labb-tab-panes {
+  background: #3c3d41;
+  border-radius: 0 0 5px 5px; }
+  .labb-tabs.style2 .labb-tab-panes .labb-tab-pane {
+    color: #838d8f; }
+    .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h1, .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h2, .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h3, .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h4, .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h5, .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h6 {
+      color: #fff; }
+
+.labb-tabs.style2.labb-mobile-layout .labb-tab-mobile-menu {
+  top: 27px; }
+.labb-tabs.style2.labb-mobile-layout .labb-tab-nav {
+  padding: 0; }
+.labb-tabs.style2.labb-mobile-layout.labb-mobile-open .labb-tab {
+  border-bottom: 1px solid #e2e2e2; }
+  .labb-tabs.style2.labb-mobile-layout.labb-mobile-open .labb-tab:last-child {
+    border-bottom: none; }
+.labb-tabs.style2.labb-mobile-layout.labb-mobile-open .labb-tab.labb-active:after {
+  display: none; }
+
+.labb-dark-bg .labb-tabs.style2 .labb-tab-nav .labb-tab a {
+  color: #333; }
+  .labb-dark-bg .labb-tabs.style2 .labb-tab-nav .labb-tab a:hover, .labb-dark-bg .labb-tabs.style2 .labb-tab-nav .labb-tab a:focus {
+    color: #666; }
+.labb-dark-bg .labb-tabs.style2 .labb-tab-nav .labb-tab.labb-active a {
+  background: #aaa;
+  color: #fff; }
+.labb-dark-bg .labb-tabs.style2 .labb-tab-nav .labb-tab.labb-active:after {
+  border-bottom: 8px solid #e7e7e7; }
+.labb-dark-bg .labb-tabs.style2 .labb-tab-panes {
+  background: #e7e7e7; }
+  .labb-dark-bg .labb-tabs.style2 .labb-tab-panes .labb-tab-pane {
+    color: #666; }
+    .labb-dark-bg .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h1, .labb-dark-bg .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h2, .labb-dark-bg .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h3, .labb-dark-bg .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h4, .labb-dark-bg .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h5, .labb-dark-bg .labb-tabs.style2 .labb-tab-panes .labb-tab-pane h6 {
+      color: #333; }
+
+/* -------- Style 3 ----------- */
+.labb-tabs.style3 .labb-tab-nav {
+  background: #3c3d41;
+  border-radius: 5px 5px 0 0; }
+  .labb-tabs.style3 .labb-tab-nav .labb-tab {
+    position: relative;
+    border-right: 1px solid #4e4f53; }
+    .labb-tabs.style3 .labb-tab-nav .labb-tab a {
+      padding: 20px 30px;
+      border-radius: 34px;
+      color: #8f8e93;
+      -webkit-transition: all .3s ease-in-out 0s;
+      transition: all .3s ease-in-out 0s; }
+      .labb-tabs.style3 .labb-tab-nav .labb-tab a:hover, .labb-tabs.style3 .labb-tab-nav .labb-tab a:focus {
+        color: #ccc; }
+    .labb-tabs.style3 .labb-tab-nav .labb-tab.labb-active:after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 8px;
+      margin: 0 auto;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid #f2f2f2; }
+    .labb-tabs.style3 .labb-tab-nav .labb-tab span.labb-icon-wrapper span, .labb-tabs.style3 .labb-tab-nav .labb-tab span.labb-image-wrapper img {
+      margin: 0 auto; }
+    .labb-tabs.style3 .labb-tab-nav .labb-tab span.labb-tab-title {
+      display: none; }
+    .labb-tabs.style3 .labb-tab-nav .labb-tab.labb-active a {
+      color: #eeeeee; }
+.labb-tabs.style3 .labb-tab-panes {
+  background: #f2f2f2;
+  border-radius: 0 0 5px 5px; }
+
+.labb-tabs.style3.labb-mobile-layout .labb-tab-nav {
+  -webkit-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-direction: normal;
+  box-direction: normal;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  padding-right: 60px; }
+.labb-tabs.style3.labb-mobile-layout.labb-mobile-open .labb-tab {
+  border-bottom: 1px solid #4e4f53; }
+  .labb-dark-bg .labb-tabs.style3.labb-mobile-layout.labb-mobile-open .labb-tab {
+    border-bottom-color: #e5e5e5; }
+  .labb-tabs.style3.labb-mobile-layout.labb-mobile-open .labb-tab.labb-active:after {
+    display: none; }
+
+.labb-dark-bg .labb-tabs.style3 .labb-tab-nav {
+  background: #fff; }
+  .labb-dark-bg .labb-tabs.style3 .labb-tab-nav .labb-tab {
+    border-right: 1px solid #ececec; }
+    .labb-dark-bg .labb-tabs.style3 .labb-tab-nav .labb-tab a {
+      color: #969696; }
+      .labb-dark-bg .labb-tabs.style3 .labb-tab-nav .labb-tab a:hover, .labb-dark-bg .labb-tabs.style3 .labb-tab-nav .labb-tab a:focus {
+        color: #666; }
+    .labb-dark-bg .labb-tabs.style3 .labb-tab-nav .labb-tab.labb-active a {
+      color: #333; }
+    .labb-dark-bg .labb-tabs.style3 .labb-tab-nav .labb-tab.labb-active:after {
+      border-bottom: 8px solid #e7e7e7; }
+.labb-dark-bg .labb-tabs.style3 .labb-tab-panes {
+  background: #e7e7e7; }
+  .labb-dark-bg .labb-tabs.style3 .labb-tab-panes .labb-tab-pane {
+    color: #666; }
+    .labb-dark-bg .labb-tabs.style3 .labb-tab-panes .labb-tab-pane h1, .labb-dark-bg .labb-tabs.style3 .labb-tab-panes .labb-tab-pane h2, .labb-dark-bg .labb-tabs.style3 .labb-tab-panes .labb-tab-pane h3, .labb-dark-bg .labb-tabs.style3 .labb-tab-panes .labb-tab-pane h4, .labb-dark-bg .labb-tabs.style3 .labb-tab-panes .labb-tab-pane h5, .labb-dark-bg .labb-tabs.style3 .labb-tab-panes .labb-tab-pane h6 {
+      color: #333; }
+
+/* ----------- Style 4 --------------- */
+.labb-tabs.style4 {
+  background: #f2f2f2;
+  border-radius: 5px; }
+  .labb-tabs.style4 .labb-tab-nav {
+    border-bottom: 1px solid #dddddd;
+    margin: 0 40px; }
+    .labb-tabs.style4 .labb-tab-nav .labb-tab {
+      position: relative;
+      z-index: 1;
+      margin-right: 20px; }
+      .labb-tabs.style4 .labb-tab-nav .labb-tab:last-child {
+        margin-right: 0; }
+      .labb-tabs.style4 .labb-tab-nav .labb-tab a {
+        color: #888;
+        padding: 30px 20px; }
+      .labb-tabs.style4 .labb-tab-nav .labb-tab:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: transparent;
+        -webkit-transition: background .3s ease-in-out 0s;
+        transition: background .3s ease-in-out 0s; }
+      .labb-tabs.style4 .labb-tab-nav .labb-tab:hover a {
+        color: #565656; }
+      .labb-tabs.style4 .labb-tab-nav .labb-tab.labb-active a {
+        color: #333; }
+      .labb-tabs.style4 .labb-tab-nav .labb-tab.labb-active:before {
+        background: #f94213;
+        height: 2px; }
+  .labb-tabs.style4 .labb-tab-pane {
+    padding: 40px; }
+
+.labb-tabs.style4.labb-mobile-layout .labb-tab-nav {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border: none; }
+  .labb-tabs.style4.labb-mobile-layout .labb-tab-nav .labb-tab {
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0; }
+    .labb-dark-bg .labb-tabs.style4.labb-mobile-layout .labb-tab-nav .labb-tab {
+      border-left: 1px solid #404040;
+      border-right: 1px solid #404040;
+      border-bottom-color: #404040; }
+    .labb-dark-bg .labb-tabs.style4.labb-mobile-layout .labb-tab-nav .labb-tab:first-child {
+      border-top: 1px solid #404040; }
+    .labb-tabs.style4.labb-mobile-layout .labb-tab-nav .labb-tab a {
+      padding: 20px 25px; }
+    .labb-tabs.style4.labb-mobile-layout .labb-tab-nav .labb-tab:before {
+      display: none; }
+.labb-tabs.style4.labb-mobile-layout.labb-mobile-open .labb-tab.labb-active {
+  border-left: 2px solid #f94213;
+  border-right: 2px solid #f94213; }
+.labb-dark-bg .labb-tabs.style4.labb-mobile-layout:not(.labb-mobile-open) .labb-tab.labb-active {
+  border-top: 1px solid #404040; }
+
+.labb-dark-bg .labb-tabs.style4 {
+  background: transparent; }
+  .labb-dark-bg .labb-tabs.style4 .labb-tab-nav {
+    margin: 0;
+    border-bottom: 1px solid #2a2a2a; }
+    .labb-dark-bg .labb-tabs.style4 .labb-tab-nav .labb-tab a {
+      color: #707070; }
+    .labb-dark-bg .labb-tabs.style4 .labb-tab-nav .labb-tab:hover a {
+      color: #b0b0b0; }
+    .labb-dark-bg .labb-tabs.style4 .labb-tab-nav .labb-tab.labb-active a {
+      color: #e5e5e5; }
+  .labb-dark-bg .labb-tabs.style4 .labb-tab-pane {
+    padding: 40px 0 0;
+    color: #909090; }
+    .labb-dark-bg .labb-tabs.style4 .labb-tab-pane h1, .labb-dark-bg .labb-tabs.style4 .labb-tab-pane h2, .labb-dark-bg .labb-tabs.style4 .labb-tab-pane h3, .labb-dark-bg .labb-tabs.style4 .labb-tab-pane h4, .labb-dark-bg .labb-tabs.style4 .labb-tab-pane h5, .labb-dark-bg .labb-tabs.style4 .labb-tab-pane h6 {
+      color: #e5e5e5; }
+
+/* ----------- Style 5 --------------- */
+.labb-tabs.style5 .labb-tab-nav a {
+  padding: 20px 50px;
+  color: #777;
+  position: relative;
+  z-index: 1; }
+  .labb-tabs.style5 .labb-tab-nav a:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: #e9e9e9;
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+    -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
+    transition: background-color 0.3s, -webkit-transform 0.3s;
+    transition: transform 0.3s, background-color 0.3s;
+    transition: transform 0.3s, background-color 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: perspective(900px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(900px) rotate3d(1, 0, 0, 90deg);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-perspective-origin: 50% 100%;
+    perspective-origin: 50% 100%; }
+  .labb-tabs.style5 .labb-tab-nav a:hover, .labb-tabs.style5 .labb-tab-nav a:focus {
+    color: #333; }
+.labb-tabs.style5 .labb-tab-nav .labb-tab.labb-active a {
+  color: #333; }
+  .labb-tabs.style5 .labb-tab-nav .labb-tab.labb-active a:after {
+    background-color: #f2f2f2;
+    -webkit-transform: perspective(900px) rotate3d(1, 0, 0, 0deg);
+    transform: perspective(900px) rotate3d(1, 0, 0, 0deg); }
+.labb-tabs.style5 .labb-tab-panes {
+  background: #f2f2f2; }
+
+.labb-tabs.style5.labb-mobile-layout .labb-tab-nav .labb-tab {
+  background: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5; }
+
+.labb-dark-bg .labb-tabs.style5 .labb-tab-nav .labb-tab a {
+  color: #b0b0b0; }
+  .labb-dark-bg .labb-tabs.style5 .labb-tab-nav .labb-tab a:hover, .labb-dark-bg .labb-tabs.style5 .labb-tab-nav .labb-tab a:focus {
+    color: #dddddd; }
+.labb-dark-bg .labb-tabs.style5 .labb-tab-nav .labb-tab.labb-active a {
+  color: #333; }
+
+/* ------------- Style 6 and Vertical Style 7 ----------------- */
+.labb-tabs.style6 .labb-tab-nav .labb-tab, .labb-tabs.style7 .labb-tab-nav .labb-tab {
+  text-align: left; }
+  .labb-tabs.style6 .labb-tab-nav .labb-tab a, .labb-tabs.style7 .labb-tab-nav .labb-tab a {
+    padding: 5px 2px;
+    color: #666;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    display: inline-block; }
+    .labb-tabs.style6 .labb-tab-nav .labb-tab a:hover, .labb-tabs.style6 .labb-tab-nav .labb-tab a:focus, .labb-tabs.style7 .labb-tab-nav .labb-tab a:hover, .labb-tabs.style7 .labb-tab-nav .labb-tab a:focus {
+      color: #333333; }
+  .labb-tabs.style6 .labb-tab-nav .labb-tab.labb-active a, .labb-tabs.style7 .labb-tab-nav .labb-tab.labb-active a {
+    border-color: #f94213;
+    color: #333; }
+.labb-tabs.style6 .labb-tab-pane, .labb-tabs.style7 .labb-tab-pane {
+  padding: 40px 0 0; }
+
+.labb-tabs.style6 .labb-tab-nav {
+  margin: 0 auto;
+  text-align: left; }
+  .labb-tabs.style6 .labb-tab-nav .labb-tab {
+    margin-right: 50px; }
+    .labb-tabs.style6 .labb-tab-nav .labb-tab:last-child {
+      margin-right: 0; }
+.labb-tabs.style6 .labb-tab-pane {
+  padding: 40px 0 0; }
+
+.labb-tabs.style7 .labb-tab-nav .labb-tab {
+  padding: 0 25px 0 0; }
+  .labb-tabs.style7 .labb-tab-nav .labb-tab a {
+    max-width: none;
+    margin: 6px 0; }
+    @media only screen and (max-width: 479px) {
+      .labb-tabs.style7 .labb-tab-nav .labb-tab a {
+        text-align: center; } }
+.labb-tabs.style7 .labb-tab-panes {
+  -webkit-box-flex: 6;
+  box-flex: 6;
+  -moz-flex: 6 1 auto;
+  -ms-flex: 6 1 auto;
+  flex: 6 1 auto; }
+  .labb-tabs.style7 .labb-tab-panes .labb-tab-pane {
+    padding: 0 0 0 20px; }
+
+.labb-tabs.style6.labb-mobile-layout .labb-tab-mobile-menu, .labb-tabs.style7.labb-mobile-layout .labb-tab-mobile-menu {
+  top: 22px; }
+.labb-tabs.style6.labb-mobile-layout .labb-tab-nav .labb-tab, .labb-tabs.style7.labb-mobile-layout .labb-tab-nav .labb-tab {
+  padding: 12px 0;
+  width: 100%;
+  text-align: center; }
+  .labb-tabs.style6.labb-mobile-layout .labb-tab-nav .labb-tab a, .labb-tabs.style7.labb-mobile-layout .labb-tab-nav .labb-tab a {
+    margin: 0; }
+.labb-tabs.style6.labb-mobile-layout .labb-tab-pane, .labb-tabs.style7.labb-mobile-layout .labb-tab-pane {
+  padding: 30px 0 0; }
+
+.labb-dark-bg .labb-tabs.style6 .labb-tab-nav .labb-tab a, .labb-dark-bg .labb-tabs.style7 .labb-tab-nav .labb-tab a {
+  color: #b0b0b0; }
+.labb-dark-bg .labb-tabs.style6 .labb-tab-nav .labb-tab:hover a, .labb-dark-bg .labb-tabs.style7 .labb-tab-nav .labb-tab:hover a {
+  color: #dddddd; }
+.labb-dark-bg .labb-tabs.style6 .labb-tab-nav .labb-tab.labb-active a, .labb-dark-bg .labb-tabs.style7 .labb-tab-nav .labb-tab.labb-active a {
+  color: #eaeaea; }
+.labb-dark-bg .labb-tabs.style6 .labb-tab-pane, .labb-dark-bg .labb-tabs.style7 .labb-tab-pane {
+  color: #909090; }
+  .labb-dark-bg .labb-tabs.style6 .labb-tab-pane h1, .labb-dark-bg .labb-tabs.style6 .labb-tab-pane h2, .labb-dark-bg .labb-tabs.style6 .labb-tab-pane h3, .labb-dark-bg .labb-tabs.style6 .labb-tab-pane h4, .labb-dark-bg .labb-tabs.style6 .labb-tab-pane h5, .labb-dark-bg .labb-tabs.style6 .labb-tab-pane h6, .labb-dark-bg .labb-tabs.style7 .labb-tab-pane h1, .labb-dark-bg .labb-tabs.style7 .labb-tab-pane h2, .labb-dark-bg .labb-tabs.style7 .labb-tab-pane h3, .labb-dark-bg .labb-tabs.style7 .labb-tab-pane h4, .labb-dark-bg .labb-tabs.style7 .labb-tab-pane h5, .labb-dark-bg .labb-tabs.style7 .labb-tab-pane h6 {
+    color: #e5e5e5; }
+
+/* ------------- Vertical Style 8 ----------------- */
+.labb-tabs.style8 .labb-tab-nav .labb-tab {
+  margin: 2px 0; }
+  .labb-tabs.style8 .labb-tab-nav .labb-tab a {
+    padding: 15px 30px;
+    border-radius: 4px;
+    background: #f2f2f2;
+    color: #777777;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    border-left: 3px solid transparent;
+    text-align: left; }
+    .labb-tabs.style8 .labb-tab-nav .labb-tab a:hover, .labb-tabs.style8 .labb-tab-nav .labb-tab a:focus {
+      color: #333333; }
+  .labb-tabs.style8 .labb-tab-nav .labb-tab.labb-active a {
+    color: #333;
+    border-left-color: #f94213; }
+.labb-tabs.style8 .labb-tab-pane {
+  padding: 0 0 0 40px; }
+
+.labb-tabs.style8.labb-mobile-layout .labb-tab-mobile-menu {
+  top: 18px; }
+.labb-tabs.style8.labb-mobile-layout .labb-tab-nav .labb-tab a {
+  text-align: left; }
+.labb-tabs.style8.labb-mobile-layout:not(.labb-mobile-open) .labb-tab.labb-active a {
+  border-color: transparent !important; }
+.labb-tabs.style8.labb-mobile-layout .labb-tab-pane {
+  padding: 30px 0 0; }
+
+.labb-dark-bg .labb-tabs.style8 .labb-tab-pane {
+  color: #909090; }
+  .labb-dark-bg .labb-tabs.style8 .labb-tab-pane h1, .labb-dark-bg .labb-tabs.style8 .labb-tab-pane h2, .labb-dark-bg .labb-tabs.style8 .labb-tab-pane h3, .labb-dark-bg .labb-tabs.style8 .labb-tab-pane h4, .labb-dark-bg .labb-tabs.style8 .labb-tab-pane h5, .labb-dark-bg .labb-tabs.style8 .labb-tab-pane h6 {
+    color: #e5e5e5; }
+
+/* ------------- Vertical Style 9 ----------------- */
+.labb-tabs.style9 {
+  background: #f2f2f2;
+  border-radius: 5px; }
+  .labb-tabs.style9 .labb-tab-nav {
+    border-right: 1px solid #dddddd; }
+    .labb-tabs.style9 .labb-tab-nav .labb-tab {
+      border-bottom: 1px solid #d8d8d8;
+      background: #e9e9e9; }
+      .labb-tabs.style9 .labb-tab-nav .labb-tab.labb-active {
+        margin-right: -1px;
+        background: #f2f2f2; }
+      .labb-tabs.style9 .labb-tab-nav .labb-tab a {
+        padding: 20px 30px;
+        color: #777; }
+        .labb-tabs.style9 .labb-tab-nav .labb-tab a:hover, .labb-tabs.style9 .labb-tab-nav .labb-tab a:focus {
+          color: #333; }
+      .labb-tabs.style9 .labb-tab-nav .labb-tab.labb-active a {
+        color: #333; }
+  .labb-tabs.style9 .labb-tab-panes {
+    -webkit-box-flex: 5;
+    box-flex: 5;
+    -moz-flex: 5 1 auto;
+    -ms-flex: 5 1 auto;
+    flex: 5 1 auto; }
+
+.labb-tabs.style9.labb-mobile-layout .labb-tab-nav {
+  border-right: none; }
+.labb-tabs.style9.labb-mobile-layout:not(.labb-mobile-open) .labb-tab.labb-active {
+  background: #eeeeee;
+  border: none; }
+
+/* -------- Vertical Style 10 ----------- */
+.labb-tabs.style10 .labb-tab-nav {
+  background: #3c3d41;
+  border-radius: 5px 0 0 5px; }
+  .labb-tabs.style10 .labb-tab-nav .labb-tab {
+    position: relative;
+    border-bottom: 1px solid #4e4f53;
+    padding: 0; }
+    .labb-tabs.style10 .labb-tab-nav .labb-tab:last-child {
+      border-bottom: none; }
+    .labb-tabs.style10 .labb-tab-nav .labb-tab a {
+      padding: 20px;
+      color: #8f8e93;
+      -webkit-transition: all .3s ease-in-out 0s;
+      transition: all .3s ease-in-out 0s; }
+      .labb-tabs.style10 .labb-tab-nav .labb-tab a:hover, .labb-tabs.style10 .labb-tab-nav .labb-tab a:focus {
+        color: #ccc; }
+    .labb-tabs.style10 .labb-tab-nav .labb-tab.labb-active:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 32px;
+      right: 0;
+      height: 8px;
+      margin: 0 auto;
+      border-top: 8px solid transparent;
+      border-right: 8px solid #f2f2f2;
+      border-bottom: 8px solid transparent; }
+    .labb-tabs.style10 .labb-tab-nav .labb-tab span.labb-icon-wrapper span, .labb-tabs.style10 .labb-tab-nav .labb-tab span.labb-image-wrapper {
+      margin: 0 auto; }
+    .labb-tabs.style10 .labb-tab-nav .labb-tab span.labb-tab-title {
+      display: none; }
+    .labb-tabs.style10 .labb-tab-nav .labb-tab.labb-active a {
+      color: #fff; }
+.labb-tabs.style10 .labb-tab-panes {
+  background: #f2f2f2;
+  border-radius: 0 5px 5px 0; }
+
+.labb-tabs.style10.labb-mobile-layout {
+  -webkit-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-direction: normal;
+  box-direction: normal;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-direction: row; }
+  .labb-tabs.style10.labb-mobile-layout .labb-tab-mobile-menu {
+    display: none; }
+  .labb-tabs.style10.labb-mobile-layout .labb-tab-nav .labb-tab {
+    display: block; }
+
+.labb-dark-bg .labb-tabs.style10 .labb-tab-nav {
+  background: #fff; }
+  .labb-dark-bg .labb-tabs.style10 .labb-tab-nav .labb-tab {
+    border-bottom: 1px solid #ececec; }
+    .labb-dark-bg .labb-tabs.style10 .labb-tab-nav .labb-tab:last-child {
+      border-bottom: none; }
+    .labb-dark-bg .labb-tabs.style10 .labb-tab-nav .labb-tab a {
+      color: #969696; }
+      .labb-dark-bg .labb-tabs.style10 .labb-tab-nav .labb-tab a:hover, .labb-dark-bg .labb-tabs.style10 .labb-tab-nav .labb-tab a:focus {
+        color: #666; }
+    .labb-dark-bg .labb-tabs.style10 .labb-tab-nav .labb-tab.labb-active a {
+      color: #333; }
+    .labb-dark-bg .labb-tabs.style10 .labb-tab-nav .labb-tab.labb-active:after {
+      border-right: 8px solid #e7e7e7; }
+.labb-dark-bg .labb-tabs.style10 .labb-tab-panes {
+  background: #e7e7e7; }
+  .labb-dark-bg .labb-tabs.style10 .labb-tab-panes .labb-tab-pane {
+    color: #666; }
+    .labb-dark-bg .labb-tabs.style10 .labb-tab-panes .labb-tab-pane h1, .labb-dark-bg .labb-tabs.style10 .labb-tab-panes .labb-tab-pane h2, .labb-dark-bg .labb-tabs.style10 .labb-tab-panes .labb-tab-pane h3, .labb-dark-bg .labb-tabs.style10 .labb-tab-panes .labb-tab-pane h4, .labb-dark-bg .labb-tabs.style10 .labb-tab-panes .labb-tab-pane h5, .labb-dark-bg .labb-tabs.style10 .labb-tab-panes .labb-tab-pane h6 {
+      color: #333; }
+
+/*# sourceMappingURL=frontend.css.map */

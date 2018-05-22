@@ -1,0 +1,31 @@
+@import "../../../../assets/css/labb-lib";
+.labb-slider {
+  position: relative;
+  padding: 0 0 10px 0;
+  .labb-slide {
+    position: relative;
+    img {
+      transition: all .4s ease-in-out 0s;
+      opacity: 0.7;
+      }
+    &:hover {
+      img {
+        opacity: 0.5;
+        }
+      }
+    }
+
+  .labb-flex-direction-nav a, .labb-flex-direction-nav a:hover {
+    color: #ccc;
+    font-size: 26px;
+    width: 30px;
+    height: 30px;
+    margin: -15px 0 0;
+    &.labb-flex-prev {
+      left: -40px;
+      }
+    &.labb-flex-next {
+      right: -40px;
+      }
+    }
+  }

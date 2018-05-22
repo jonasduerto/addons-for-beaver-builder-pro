@@ -1,0 +1,121 @@
+@import "../../../../assets/css/labb-lib";
+
+.labb-gallery-carousel {
+  clear: both;
+  .labb-gallery-carousel-item {
+    @include respond-to-max(1024) {
+      margin-bottom: 20px;
+      }
+    .hentry {
+      margin: 0;
+      padding: 0;
+      border: none;
+      background: none;
+      box-shadow: none;
+      }
+    .labb-project-image {
+      position: relative;
+      overflow: hidden;
+      .fl-photo-content {
+        width: 100%;
+        }
+      img {
+        width: 100%;
+        display: block;
+        transition: all .4s ease-in-out 0s;
+        }
+      &:hover {
+        img {
+          filter: brightness(50%);
+          }
+        }
+      .labb-image-info {
+        display: block;
+        text-align: center;
+        .labb-entry-info {
+          text-align: center;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          margin: auto;
+          max-width: 100%;
+          transform: translateY(-50%);
+          }
+        .labb-entry-title {
+          padding: 10px;
+          margin: 0;
+          font-size: 18px;
+          line-height: 28px;
+          font-weight: 400;
+          color: #fff;
+          opacity: 0;
+          transition: opacity .4s ease-in-out 0s;
+          @include respond-to-max(1024) {
+            font-size: 18px;
+            line-height: 26px;
+            }
+          a {
+            display: inline;
+            color: #fff;
+            transition: all .3s ease-in-out 0s;
+            border-bottom: 1px solid transparent;
+            &:hover {
+              border-bottom: 1px solid #ccc;
+              }
+            }
+          }
+        .labb-terms {
+          display: block;
+          color: #ddd;
+          font-size: 14px;
+          line-height: 22px;
+          font-style: italic;
+          opacity: 0;
+          transition: opacity .4s ease-in-out 0s;
+          }
+        .labb-video-lightbox, .labb-video-lightbox i {
+          color: #fff;
+          font-size: 32px;
+          line-height: 1;
+          transition: color .4s ease-in-out 0s;
+          &:hover {
+            color: #ddd;
+            }
+          }
+        .labb-lightbox-item {
+          position: absolute;
+          top: 0;
+          right: 0;
+          color: #fff;
+          font-size: 14px;
+          line-height: 1;
+          display: block;
+          padding: 12px;
+          background: transparent;
+          opacity: 0;
+          transition: all .3s ease-in-out 0s;
+          i {
+            font-size: 22px;
+            }
+          &:hover {
+            background: rgba(0, 0, 0, 0.5);;
+            }
+          }
+        }
+      &:hover {
+        .labb-image-info {
+          .labb-entry-title, .labb-terms, .labb-lightbox-item {
+            opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  .labb-gallery-carousel-item.labb-youtube-type, .labb-gallery-carousel-item.labb-vimeo-type {
+    .labb-image-info .labb-entry-info {
+      height: 110px;
+      }
+    }
+  }

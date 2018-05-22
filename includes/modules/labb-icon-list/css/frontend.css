@@ -1,0 +1,56 @@
+.labb-icon-list {
+  font-size: 0;
+  /* Remove space between elements */
+  width: 100%; }
+  .labb-icon-list.labb-alignleft {
+    text-align: left; }
+  .labb-icon-list.labb-alignright {
+    text-align: right; }
+  .labb-icon-list.labb-aligncenter {
+    text-align: center; }
+  .labb-icon-list .labb-icon-list-item {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    outline: none;
+    margin: 0 0 0 15px; }
+    .labb-icon-list .labb-icon-list-item:first-child {
+      margin: 0; }
+    .labb-icon-list .labb-icon-list-item .labb-icon-wrapper span {
+      display: block;
+      font-size: 32px;
+      line-height: 1;
+      color: #666;
+      -webkit-transition: color .3s ease-in-out 0s;
+      transition: color .3s ease-in-out 0s; }
+    .labb-icon-list .labb-icon-list-item .labb-image-wrapper img {
+      display: block;
+      max-width: 100%;
+      width: 32px;
+      height: auto;
+      margin: 0 auto;
+      -webkit-transition: all .4s ease-in-out 0s;
+      transition: all .4s ease-in-out 0s; }
+    .labb-icon-list .labb-icon-list-item:hover .labb-image-wrapper img {
+      opacity: 0.8; }
+    .labb-icon-list .labb-icon-list-item:hover .labb-icon-wrapper span {
+      color: #333; }
+
+.labb-circular-icon-list .labb-icon-list .labb-icon-list-item {
+  margin: 0 0 0 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%; }
+  @media only screen and (max-width: 479px) {
+    .labb-circular-icon-list .labb-icon-list .labb-icon-list-item {
+      margin: 0 0 20px 20px; } }
+  .labb-circular-icon-list .labb-icon-list .labb-icon-list-item:first-child {
+    margin-left: 0; }
+  .labb-dark-bg .labb-circular-icon-list .labb-icon-list .labb-icon-list-item {
+    background: #48484a; }
+  .labb-circular-icon-list .labb-icon-list .labb-icon-list-item .labb-icon-wrapper span {
+    font-size: 22px;
+    /* Override user choice */
+    padding: 14px 0; }
+
+/*# sourceMappingURL=frontend.css.map */

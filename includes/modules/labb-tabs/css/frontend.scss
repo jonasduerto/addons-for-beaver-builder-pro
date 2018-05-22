@@ -1,0 +1,888 @@
+@import "../../../../assets/css/labb-lib";
+$theme_color: #f94213;
+
+@keyframes labb-fade {
+  0% {
+    opacity: 0;
+    }
+  100% {
+    opacity: 1;
+    }
+  }
+/* ---------- General tab styles ---------- */
+
+.labb-tabs {
+  position: relative;
+  overflow: hidden;
+  .labb-tab-nav {
+     display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    .labb-tab {
+      text-align: center;
+      @include flex(0 1 auto);
+      a {
+        display: block;
+        text-overflow: ellipsis;
+        white-space: normal;
+        padding: 20px 40px;
+        text-decoration: none;
+        border: none;
+        margin: 0;
+        outline: none;
+        transition: color .3s ease-in-out 0s;
+        @include respond-to-max(1024) {
+          padding: 20px 25px;
+          }
+        }
+      span.labb-icon-wrapper span {
+        font-size: 32px;
+        font-weight: 400;
+        vertical-align: middle;
+        margin-right: 10px;
+        }
+      span.labb-image-wrapper img {
+        max-width: 24px;
+        display: inline-block;
+        vertical-align: middle;
+        height: auto;
+        width: auto;
+        padding: 0;
+        margin: 0 10px 0 0;
+        border: none;
+        }
+      span.labb-tab-title {
+        font-size: 14px;
+        line-height: 1;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        }
+      }
+    }
+  .labb-tab-panes {
+    position: relative;
+    .labb-tab-pane {
+      padding: 40px;
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      left: -9999px;
+      &.labb-active {
+        position: static;
+        left: 0;
+        animation: labb-fade 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+/* ----- Fallback for IE 8/9 ----- */
+.labb-no-flexbox {
+  .labb-tab-nav {
+    display: block;
+    .labb-tab {
+      min-width: 15%;
+      display: inline-block;
+      }
+    }
+  }
+
+/* ------------- Vertical tab styles ----------------- */
+
+.labb-tabs.labb-vertical {
+  display: flex;
+  .labb-tab-nav {
+    @include flex (1 1 auto);
+    @include flex-direction(column);
+    justify-content: flex-start;
+    }
+  .labb-tab-panes {
+    @include flex (4 1 auto);
+    }
+  &.labb-mobile-layout {
+    @include flex-direction(column);
+    }
+  }
+/* --------- Tab navigation in mobile ------------- */
+
+.labb-tab-mobile-menu {
+  display: none; /* Hide on desktop */
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  z-index: 10;
+  i {
+    font-size: 18px;
+    color: #777;
+    font-weight: bold;
+    }
+  }
+.labb-tabs.labb-mobile-layout {
+  .labb-tab-mobile-menu {
+    display: block; /* Show on mobile only */
+    }
+  .labb-tab-nav {
+    @include flex-direction(column);
+    cursor: pointer;
+    .labb-tab {
+      text-align: center;
+      display: none;
+      &.labb-active {
+        display: block;
+        }
+      }
+    }
+  &.labb-mobile-open {
+    /* Open all tab navs and change the expand menu button to close button */
+    .labb-tab-nav {
+      .labb-tab {
+        display: block;
+        }
+    }
+    .labb-tab-mobile-menu {
+      i:before {
+        content: '\e911';
+        }
+      }
+    }
+  }
+/* ------------- Style 1 ----------------- */
+
+.labb-tabs.style1 {
+
+  .labb-tab-nav {
+    .labb-tab {
+      border-left: 1px solid #d9d9d9;
+      border-bottom: 1px solid #e2e2e2;
+      background: #e9e9e9;
+      &:first-child {
+        border-left-color: transparent;
+        border-radius: 5px 0 0 0;
+        }
+      &:last-child {
+        border-radius: 0 5px 0 0;
+        }
+      &.labb-active {
+        border-bottom: none;
+        background: #f2f2f2;
+        }
+      a {
+        color: #777;
+        &:hover, &:focus {
+          color: #333;
+          }
+        }
+      &.labb-active a {
+        color: #333;
+        }
+      }
+    }
+  .labb-tab-panes {
+    background: #f2f2f2;
+    border-radius: 0 4px 4px 4px;
+    }
+  }
+
+
+.labb-tabs.style1.labb-mobile-layout {
+  &:not(.labb-mobile-open) {
+      .labb-tab.labb-active {
+        background: #eeeeee;
+      }
+    }
+  .labb-tab {
+    border-left: none;
+    border-bottom-color: #d9d9d9;
+    &:first-child {
+      border-radius: 5px 5px 0 0;
+      }
+    &:last-child {
+      border-radius: 0;
+      }
+  }
+  .labb-tab-panes {
+    border-radius: 0;
+  }
+}
+
+/* -------- Style 2 ----------- */
+
+.labb-tabs.style2 {
+  .labb-tab-nav {
+    background: #f2f2f2;
+    border-radius: 5px 5px 0 0;
+    padding: 0 30px;
+    .labb-tab {
+      padding: 20px 10px;
+      position: relative;
+      a {
+        display: inline-block;
+        padding: 5px 20px;
+        border-radius: 34px;
+        color: #666;
+        transition: all .3s ease-in-out 0s;
+        &:hover, &:focus {
+          color: #888;
+          }
+        }
+      &.labb-active:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 8px;
+        margin: 0 auto;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #3c3d41;
+        }
+      &.labb-active a {
+        background: #838d8f;
+        color: #fff;
+        }
+      }
+    }
+  .labb-tab-panes {
+    background: #3c3d41;
+    border-radius: 0 0 5px 5px;
+    .labb-tab-pane {
+      color: #838d8f;
+      h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+        }
+      }
+    }
+  }
+.labb-tabs.style2.labb-mobile-layout {
+  .labb-tab-mobile-menu {
+    top: 27px;
+  }
+  .labb-tab-nav {
+    padding: 0;
+  }
+  &.labb-mobile-open {
+    .labb-tab {
+      border-bottom: 1px solid #e2e2e2;
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    .labb-tab.labb-active:after {
+      display: none;
+    }
+  }
+}
+.labb-dark-bg .labb-tabs.style2 {
+  .labb-tab-nav {
+    .labb-tab {
+      a {
+        color: #333;
+        &:hover, &:focus {
+          color: #666;
+          }
+        }
+      &.labb-active a {
+        background: #aaa;
+        color: #fff;
+        }
+      &.labb-active:after {
+        border-bottom: 8px solid #e7e7e7;
+        }
+      }
+    }
+  .labb-tab-panes {
+    background: #e7e7e7;
+    .labb-tab-pane {
+      color: #666;
+      h1, h2, h3, h4, h5, h6 {
+        color: #333;
+        }
+      }
+    }
+  }
+/* -------- Style 3 ----------- */
+
+.labb-tabs.style3 {
+  .labb-tab-nav {
+    background: #3c3d41;
+    border-radius: 5px 5px 0 0;
+    .labb-tab {
+      position: relative;
+      border-right: 1px solid #4e4f53;
+      a {
+        padding: 20px 30px;
+        border-radius: 34px;
+        color: #8f8e93;
+        transition: all .3s ease-in-out 0s;
+        &:hover, &:focus {
+          color: #ccc;
+          }
+        }
+      &.labb-active:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 8px;
+        margin: 0 auto;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #f2f2f2;
+        }
+      span.labb-icon-wrapper span, span.labb-image-wrapper img {
+        margin: 0 auto;
+        }
+      span.labb-tab-title {
+        display: none;
+        }
+      &.labb-active a {
+        color: #eeeeee;
+        }
+      }
+    }
+  .labb-tab-panes {
+    background: #f2f2f2;
+    border-radius: 0 0 5px 5px;
+    }
+  }
+.labb-tabs.style3.labb-mobile-layout {
+  .labb-tab-nav {
+     @include flex-direction(row);
+     padding-right: 60px;
+  }
+  &.labb-mobile-open {
+    .labb-tab {
+      border-bottom: 1px solid #4e4f53;
+      .labb-dark-bg & {
+        border-bottom-color: #e5e5e5;
+      }
+      &.labb-active:after {
+        display: none;
+      }
+    }
+  }
+}
+.labb-dark-bg .labb-tabs.style3 {
+  .labb-tab-nav {
+    background: #fff;
+    .labb-tab {
+      border-right: 1px solid #ececec;
+      a {
+        color: #969696;
+        &:hover, &:focus {
+          color: #666;
+          }
+        }
+      &.labb-active a {
+        color: #333;
+        }
+      &.labb-active:after {
+        border-bottom: 8px solid #e7e7e7;
+        }
+      }
+    }
+  .labb-tab-panes {
+    background: #e7e7e7;
+    .labb-tab-pane {
+      color: #666;
+      h1, h2, h3, h4, h5, h6 {
+        color: #333;
+        }
+      }
+    }
+  }
+/* ----------- Style 4 --------------- */
+
+.labb-tabs.style4 {
+  background: #f2f2f2;
+  border-radius: 5px;
+  .labb-tab-nav {
+    border-bottom: 1px solid #dddddd;
+    margin: 0 40px;
+    .labb-tab {
+      position: relative;
+      z-index: 1;
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+        }
+      a {
+        color: #888;
+        padding: 30px 20px;
+        }
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: transparent;
+        transition: background .3s ease-in-out 0s;
+        }
+      &:hover a {
+        color: #565656;
+        }
+      &.labb-active {
+        a {
+          color: #333;
+          }
+        &:before {
+          background: $theme_color;
+          height: 2px;
+          }
+        }
+      }
+    }
+  .labb-tab-pane {
+    padding: 40px;
+    }
+  }
+
+
+.labb-tabs.style4.labb-mobile-layout {
+  .labb-tab-nav {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: none;
+    .labb-tab {
+      margin: 0;
+      border-bottom: 1px solid #e0e0e0;
+      .labb-dark-bg & {
+        border-left: 1px solid #404040;
+        border-right: 1px solid #404040;
+        border-bottom-color: #404040;
+      }
+      .labb-dark-bg &:first-child {
+        border-top: 1px solid #404040;
+      }
+      a {
+        padding: 20px 25px;
+      }
+      &:before {
+        display: none;
+      }
+    }
+  }
+  &.labb-mobile-open {
+    .labb-tab.labb-active {
+       border-left: 2px solid $theme_color;
+       border-right: 2px solid $theme_color;
+    }
+  }
+  &:not(.labb-mobile-open) {
+    .labb-tab.labb-active {
+       .labb-dark-bg & {
+         border-top: 1px solid #404040;
+       }
+    }
+  }
+}
+.labb-dark-bg .labb-tabs.style4 {
+  background: transparent;
+
+  .labb-tab-nav {
+    margin: 0;
+    border-bottom: 1px solid #2a2a2a;
+    .labb-tab {
+      a {
+        color: #707070;
+        }
+      }
+    .labb-tab:hover {
+      a {
+        color: #b0b0b0;
+        }
+      }
+    .labb-tab.labb-active {
+      a {
+        color: #e5e5e5;
+        }
+      }
+    }
+
+  .labb-tab-pane {
+    padding: 40px 0 0; 
+    color: #909090;
+    h1, h2, h3, h4, h5, h6 {
+      color: #e5e5e5;
+      }
+    }
+  }
+/* ----------- Style 5 --------------- */
+
+.labb-tabs.style5 {
+  .labb-tab-nav {
+    a {
+      padding: 20px 50px;
+      color: #777;
+      position: relative;
+      z-index: 1;
+      &:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-color: #e9e9e9;
+        content: '';
+        -webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+        transition: transform 0.3s, background-color 0.3s;
+        -webkit-transform: perspective(900px) rotate3d(1, 0, 0, 90deg);
+        transform: perspective(900px) rotate3d(1, 0, 0, 90deg);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        -webkit-perspective-origin: 50% 100%;
+        perspective-origin: 50% 100%;
+        }
+      &:hover, &:focus {
+        color: #333;
+        }
+      }
+    .labb-tab.labb-active a {
+      color: #333;
+      &:after {
+        background-color: #f2f2f2;
+        -webkit-transform: perspective(900px) rotate3d(1, 0, 0, 0deg);
+        transform: perspective(900px) rotate3d(1, 0, 0, 0deg);
+        }
+      }
+    }
+  .labb-tab-panes {
+    background: #f2f2f2;
+    }
+  }
+
+.labb-tabs.style5.labb-mobile-layout {
+  .labb-tab-nav {
+    .labb-tab {
+      background: #f2f2f2;
+      border-bottom: 1px solid #e5e5e5;
+    }
+  }
+}
+
+.labb-dark-bg .labb-tabs.style5 {
+  .labb-tab-nav {
+    .labb-tab a {
+    color: #b0b0b0;
+    &:hover, &:focus {
+      color: #dddddd;
+    }
+    }
+  .labb-tab.labb-active a {
+    color: #333;
+    }
+  }
+}
+
+/* ------------- Style 6 and Vertical Style 7 ----------------- */
+
+.labb-tabs.style6, .labb-tabs.style7 {
+  .labb-tab-nav {
+    .labb-tab {
+      text-align: left;
+      a {
+        padding: 5px 2px;
+        color: #666;
+        transition: all .3s ease-in-out 0s;
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+        display: inline-block;
+        &:hover, &:focus {
+          color: #333333;
+          }
+        }
+      &.labb-active a {
+        border-color: $theme_color;
+        color: #333;
+        }
+      }
+    }
+  .labb-tab-pane {
+    padding: 40px 0 0;
+    }
+  }
+.labb-tabs.style6 {
+  .labb-tab-nav {
+    margin: 0 auto;
+    text-align: left;
+    .labb-tab {
+      margin-right: 50px;
+      &:last-child {
+        margin-right: 0;
+        }
+      }
+    }
+  .labb-tab-pane {
+    padding: 40px 0 0;
+    }
+  }
+.labb-tabs.style7 {
+  .labb-tab-nav {
+    .labb-tab {
+      padding: 0 25px 0 0;
+      a {
+        max-width: none;
+        margin: 6px 0;
+        @include respond-to-max(479) {
+          text-align: center;
+          }
+        }
+      }
+    }
+  .labb-tab-panes {
+    @include flex(6 1 auto);
+    .labb-tab-pane {
+      padding: 0 0 0 20px;
+      }
+    }
+  }
+
+
+
+.labb-tabs.style6.labb-mobile-layout, .labb-tabs.style7.labb-mobile-layout {
+  .labb-tab-mobile-menu {
+    top: 22px;
+    }
+  .labb-tab-nav {
+    .labb-tab {
+      padding: 12px 0;
+      width: 100%;
+      text-align: center;
+      a {
+        margin: 0;
+      }
+    }
+  }
+  .labb-tab-pane {
+    padding: 30px 0 0;
+  }
+}
+
+.labb-dark-bg .labb-tabs.style6, .labb-dark-bg .labb-tabs.style7 {
+  .labb-tab-nav {
+    .labb-tab {
+      a {
+        color: #b0b0b0;
+        }
+      }
+    .labb-tab:hover {
+      a {
+        color: #dddddd;
+        }
+      }
+    .labb-tab.labb-active {
+      a {
+        color: #eaeaea;
+        }
+      }
+    }
+  .labb-tab-pane {
+    color: #909090;
+    h1, h2, h3, h4, h5, h6 {
+      color: #e5e5e5;
+      }
+    }
+  }
+/* ------------- Vertical Style 8 ----------------- */
+
+.labb-tabs.style8 {
+  .labb-tab-nav {
+    .labb-tab {
+      margin: 2px 0;
+      a {
+        padding: 15px 30px;
+        border-radius: 4px;
+        background: #f2f2f2;
+        color: #777777;
+        transition: all .3s ease-in-out 0s;
+        border-left: 3px solid transparent;
+        text-align: left;
+        &:hover, &:focus {
+          color: #333333;
+          }
+        }
+      &.labb-active a {
+        color: #333;
+        border-left-color: $theme_color;
+        }
+      }
+    }
+  .labb-tab-pane {
+    padding: 0 0 0 40px;
+    }
+  }
+
+
+.labb-tabs.style8.labb-mobile-layout {
+  .labb-tab-mobile-menu {
+    top: 18px;
+  }
+  .labb-tab-nav {
+    .labb-tab a {
+      text-align: left;
+    }
+  }
+  &:not(.labb-mobile-open) {
+    .labb-tab.labb-active a {
+      border-color: transparent !important;
+    }
+  }
+  .labb-tab-pane {
+    padding: 30px 0 0;
+  }
+}
+
+
+.labb-dark-bg .labb-tabs.style8 {
+  .labb-tab-pane {
+    color: #909090;
+    h1, h2, h3, h4, h5, h6 {
+      color: #e5e5e5;
+      }
+    }
+  }
+
+/* ------------- Vertical Style 9 ----------------- */
+
+.labb-tabs.style9 {
+    background: #f2f2f2;
+    border-radius: 5px;
+  .labb-tab-nav {
+    border-right: 1px solid #dddddd;
+    .labb-tab {
+      border-bottom: 1px solid #d8d8d8;
+      background: #e9e9e9;
+      &.labb-active {
+        margin-right: -1px;
+        background: #f2f2f2;
+        }
+      a {
+        padding: 20px 30px;
+        color: #777;
+        &:hover, &:focus {
+          color: #333;
+          }
+        }
+      &.labb-active a {
+        color: #333;
+        }
+      }
+    }
+  .labb-tab-panes {
+    @include flex(5 1 auto);
+    }
+  }
+
+.labb-tabs.style9.labb-mobile-layout {
+  .labb-tab-nav {
+    border-right: none;
+  }
+  &:not(.labb-mobile-open) {
+    .labb-tab.labb-active {
+      background: #eeeeee;
+      border: none;
+    }
+  }
+}
+/* -------- Vertical Style 10 ----------- */
+
+.labb-tabs.style10 {
+  .labb-tab-nav {
+    background: #3c3d41;
+    border-radius: 5px 0 0 5px;
+    .labb-tab {
+      position: relative;
+      border-bottom: 1px solid #4e4f53;
+      padding: 0;
+      &:last-child {
+        border-bottom: none;
+        }
+      a {
+        padding: 20px;
+        color: #8f8e93;
+        transition: all .3s ease-in-out 0s;
+        &:hover, &:focus {
+          color: #ccc;
+          }
+        }
+      &.labb-active:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 32px;
+        right: 0;
+        height: 8px;
+        margin: 0 auto;
+        border-top: 8px solid transparent;
+        border-right: 8px solid #f2f2f2;
+        border-bottom: 8px solid transparent;
+        }
+      span.labb-icon-wrapper span, span.labb-image-wrapper {
+        margin: 0 auto;
+        }
+      span.labb-tab-title {
+        display: none;
+        }
+      &.labb-active a {
+        color: #fff;
+        }
+      }
+    }
+  .labb-tab-panes {
+    background: #f2f2f2;
+    border-radius: 0 5px 5px 0;
+    }
+  }
+.labb-tabs.style10.labb-mobile-layout {
+  @include flex-direction(row);
+  .labb-tab-mobile-menu {
+    display: none;
+  }
+  .labb-tab-nav {
+    .labb-tab {
+      display: block;
+      }
+    }
+}
+.labb-dark-bg .labb-tabs.style10 {
+  .labb-tab-nav {
+    background: #fff;
+    .labb-tab {
+      border-bottom: 1px solid #ececec;
+      &:last-child {
+        border-bottom: none;
+        }
+      a {
+        color: #969696;
+        &:hover, &:focus {
+          color: #666;
+          }
+        }
+      &.labb-active a {
+        color: #333;
+        }
+      &.labb-active:after {
+        border-right: 8px solid #e7e7e7;
+        }
+      }
+    }
+  .labb-tab-panes {
+    background: #e7e7e7;
+    .labb-tab-pane {
+      color: #666;
+      h1, h2, h3, h4, h5, h6 {
+        color: #333;
+        }
+      }
+    }
+  }

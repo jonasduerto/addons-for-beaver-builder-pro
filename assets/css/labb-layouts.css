@@ -1,0 +1,103 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General
+2. Features
+3. Call to Action
+4. Services
+5. Promo Blocks
+6. Testimonials
+7. Team
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+1. General
+-------------------------------------------------------------------*/
+.mc4wp-form {
+  text-align: center; }
+  .mc4wp-form input[type=email] {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 50%;
+    padding: 15px 12px; }
+  .mc4wp-form input[type=submit] {
+    margin: 0 0 0 30px; }
+  @media only screen and (max-width: 600px) {
+    .mc4wp-form input[type=email] {
+      display: block;
+      width: 100%;
+      margin: 0 auto; }
+    .mc4wp-form input[type=submit] {
+      margin: 30px auto 0; } }
+
+/*------------------------------------------------------------------
+2. Features
+-------------------------------------------------------------------*/
+/* Both sides features */
+.labb-features-both-sides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .labb-features-both-sides .labb-text-content.labb-left {
+    text-align: right; }
+  .labb-features-both-sides .labb-text-content.labb-middle {
+    text-align: center; }
+  .labb-features-both-sides .labb-text-content.labb-right {
+    text-align: left; }
+  .labb-features-both-sides .labb-text-content .labb-title {
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px; }
+    @media only screen and (max-width: 1024px) {
+      .labb-features-both-sides .labb-text-content .labb-title {
+        margin-top: 25px; } }
+    .labb-features-both-sides .labb-text-content .labb-title.labb-first {
+      margin-top: 0; }
+  .labb-features-both-sides .labb-text-content p {
+    font-size: 14px;
+    line-height: 22px; }
+
+/*------------------------------------------------------------------
+3. Call to Action
+-------------------------------------------------------------------*/
+.labb-call-to-action .labb-heading {
+  margin: 0 auto 30px;
+  max-width: 700px; }
+  .labb-call-to-action .labb-heading .labb-title {
+    font-size: 48px;
+    line-height: 65px; }
+    @media only screen and (max-width: 1024px) {
+      .labb-call-to-action .labb-heading .labb-title {
+        font-size: 32px;
+        line-height: 42px; } }
+  .labb-call-to-action .labb-heading .labb-subtitle {
+    margin: 0 auto 15px; }
+.labb-call-to-action input[type=text], .labb-call-to-action input[type=email], .labb-call-to-action input[type=phone] {
+  padding: 12px 10px; }
+
+/*------------------------------------------------------------------
+4. Services
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+5. Promo Blocks
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+6. Testimonials
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+7. Team
+-------------------------------------------------------------------*/
+
+/*# sourceMappingURL=labb-layouts.css.map */

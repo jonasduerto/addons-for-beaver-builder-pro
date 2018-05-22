@@ -1,0 +1,1 @@
+{"version":3,"sources":["frontend.scss"],"names":[],"mappings":"AACA;EACE,mBAAkB;EAClB,oBAAmB,EAAA;EACnB;IACE,mBAAkB,EAAA;IAClB;MACE,2CAAkC;MAAlC,mCAAkC;MAClC,aAAY,EAAA;IAGZ;MACE,aAAY,EAAA;EAKlB;IACE,YAAW;IACX,gBAAe;IACf,YAAW;IACX,aAAY;IACZ,kBAAiB,EAAA;IACjB;MACE,YAAW,EAAA;IAEb;MACE,aAAY,EAAA","file":"frontend.css"}

@@ -1,0 +1,36 @@
+/* Both sides features */
+
+.labb-features-both-sides {
+   display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  .labb-text-content {
+    &.labb-left {
+      text-align: right;
+      }
+    &.labb-middle {
+      text-align: center;
+      }
+    &.labb-right {
+      text-align: left;
+      }
+    .labb-title {
+      color: #333;
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 50px;
+      @include respond-to-max(1024) {
+        margin-top: 25px;
+        }
+      &.labb-first {
+        margin-top: 0;
+        }
+      }
+    p {
+      font-size: 14px;
+      line-height: 22px;
+      }
+    }
+  }

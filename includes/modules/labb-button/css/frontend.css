@@ -1,0 +1,13 @@
+input.labb-button.labb-with-icon span, input.labb-button.labb-with-icon img.labb-thumbnail, button.labb-button.labb-with-icon span, button.labb-button.labb-with-icon img.labb-thumbnail, a.labb-button.labb-with-icon span, a.labb-button.labb-with-icon img.labb-thumbnail, .labb-button.labb-with-icon:active span, .labb-button.labb-with-icon:active img.labb-thumbnail, .labb-button.labb-with-icon:visited span, .labb-button.labb-with-icon:visited img.labb-thumbnail {
+  margin-right: 15px; }
+input.labb-button.labb-with-icon span, button.labb-button.labb-with-icon span, a.labb-button.labb-with-icon span, .labb-button.labb-with-icon:active span, .labb-button.labb-with-icon:visited span {
+  color: #fff;
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 1; }
+input.labb-button.labb-with-icon img.labb-thumbnail, button.labb-button.labb-with-icon img.labb-thumbnail, a.labb-button.labb-with-icon img.labb-thumbnail, .labb-button.labb-with-icon:active img.labb-thumbnail, .labb-button.labb-with-icon:visited img.labb-thumbnail {
+  display: inline !important;
+  vertical-align: middle;
+  max-width: 50px; }
+
+/*# sourceMappingURL=frontend.css.map */

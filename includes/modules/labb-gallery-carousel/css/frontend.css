@@ -1,0 +1,101 @@
+.labb-gallery-carousel {
+  clear: both; }
+  @media only screen and (max-width: 1024px) {
+    .labb-gallery-carousel .labb-gallery-carousel-item {
+      margin-bottom: 20px; } }
+  .labb-gallery-carousel .labb-gallery-carousel-item .hentry {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image {
+    position: relative;
+    overflow: hidden; }
+    .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .fl-photo-content {
+      width: 100%; }
+    .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image img {
+      width: 100%;
+      display: block;
+      -webkit-transition: all .4s ease-in-out 0s;
+      transition: all .4s ease-in-out 0s; }
+    .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image:hover img {
+      -webkit-filter: brightness(50%);
+              filter: brightness(50%); }
+    .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info {
+      display: block;
+      text-align: center; }
+      .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-entry-info {
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 100%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
+      .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-entry-title {
+        padding: 10px;
+        margin: 0;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color: #fff;
+        opacity: 0;
+        -webkit-transition: opacity .4s ease-in-out 0s;
+        transition: opacity .4s ease-in-out 0s; }
+        @media only screen and (max-width: 1024px) {
+          .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-entry-title {
+            font-size: 18px;
+            line-height: 26px; } }
+        .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-entry-title a {
+          display: inline;
+          color: #fff;
+          -webkit-transition: all .3s ease-in-out 0s;
+          transition: all .3s ease-in-out 0s;
+          border-bottom: 1px solid transparent; }
+          .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-entry-title a:hover {
+            border-bottom: 1px solid #ccc; }
+      .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-terms {
+        display: block;
+        color: #ddd;
+        font-size: 14px;
+        line-height: 22px;
+        font-style: italic;
+        opacity: 0;
+        -webkit-transition: opacity .4s ease-in-out 0s;
+        transition: opacity .4s ease-in-out 0s; }
+      .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-video-lightbox, .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-video-lightbox i {
+        color: #fff;
+        font-size: 32px;
+        line-height: 1;
+        -webkit-transition: color .4s ease-in-out 0s;
+        transition: color .4s ease-in-out 0s; }
+        .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-video-lightbox:hover, .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-video-lightbox i:hover {
+          color: #ddd; }
+      .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-lightbox-item {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        font-size: 14px;
+        line-height: 1;
+        display: block;
+        padding: 12px;
+        background: transparent;
+        opacity: 0;
+        -webkit-transition: all .3s ease-in-out 0s;
+        transition: all .3s ease-in-out 0s; }
+        .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-lightbox-item i {
+          font-size: 22px; }
+        .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image .labb-image-info .labb-lightbox-item:hover {
+          background: rgba(0, 0, 0, 0.5); }
+    .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image:hover .labb-image-info .labb-entry-title, .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image:hover .labb-image-info .labb-terms, .labb-gallery-carousel .labb-gallery-carousel-item .labb-project-image:hover .labb-image-info .labb-lightbox-item {
+      opacity: 1; }
+  .labb-gallery-carousel .labb-gallery-carousel-item.labb-youtube-type .labb-image-info .labb-entry-info, .labb-gallery-carousel .labb-gallery-carousel-item.labb-vimeo-type .labb-image-info .labb-entry-info {
+    height: 110px; }
+
+/*# sourceMappingURL=frontend.css.map */

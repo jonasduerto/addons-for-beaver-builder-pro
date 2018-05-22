@@ -1,0 +1,18 @@
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+
+.cs-title { width: 545px; padding: 10px; background-color: #000000; color: #FFFFFF; }
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvaW4tc2xpZGVyLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0VBR0U7OztBQUdGLGVBQWUsaUJBQWlCLENBQUMsUUFBUSxDQUFDLG1CQUFtQixFQUFFO0FBQy9ELGdCQUFnQixzQkFBc0IsQ0FBQyxjQUFjLENBQUMsYUFBYSxFQUFFOztBQUVyRSxjQUFjLGVBQWUsQ0FBQyxjQUFjLENBQUMsWUFBWSxFQUFFO0FBQzNELGdCQUFnQixpQkFBaUIsQ0FBQyxhQUFhLENBQUMsWUFBWSxDQUFDLFlBQVksQ0FBQywwQkFBMEIsQ0FBQyxlQUFlLENBQUMscUJBQXFCLEVBQUU7QUFDNUksYUFBYSwwQkFBMEIsQ0FBQyxlQUFlLEVBQUU7O0FBRXpELFlBQVksYUFBYSxDQUFDLGNBQWMsQ0FBQywwQkFBMEIsQ0FBQyxlQUFlLEVBQUU7O0FBRXJGO1dBQ1csMEJBQTBCLENBQUMsZUFBZSxDQUFDLGtCQUFrQixFQUFFIiwiZmlsZSI6ImNvaW4tc2xpZGVyLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG5cdENvaW4gU2xpZGVyIGpRdWVyeSBwbHVnaW4gQ1NTIHN0eWxlc1xuXHRodHRwOi8vd29ya3Nob3AucnMvcHJvamVjdHMvY29pbi1zbGlkZXJcbiovXG5cblxuLmNvaW4tc2xpZGVyIHsgb3ZlcmZsb3c6IGhpZGRlbjsgem9vbTogMTsgcG9zaXRpb246IHJlbGF0aXZlOyB9XG4uY29pbi1zbGlkZXIgYXsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBvdXRsaW5lOiBub25lOyBib3JkZXI6IG5vbmU7IH1cblxuLmNzLWJ1dHRvbnMgeyBmb250LXNpemU6IDBweDsgcGFkZGluZzogMTBweDsgZmxvYXQ6IGxlZnQ7IH1cbi5jcy1idXR0b25zIGEgeyBtYXJnaW4tbGVmdDogNXB4OyBoZWlnaHQ6IDEwcHg7IHdpZHRoOiAxMHB4OyBmbG9hdDogbGVmdDsgYm9yZGVyOiAxcHggc29saWQgI0I4QzRDRjsgY29sb3I6ICNCOEM0Q0Y7IHRleHQtaW5kZW50OiAtMTAwMHB4OyB9XG4uY3MtYWN0aXZlIHsgYmFja2dyb3VuZC1jb2xvcjogI0I4QzRDRjsgY29sb3I6ICNGRkZGRkY7IH1cblxuLmNzLXRpdGxlIHsgd2lkdGg6IDU0NXB4OyBwYWRkaW5nOiAxMHB4OyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwMDAwOyBjb2xvcjogI0ZGRkZGRjsgfVxuXG4uY3MtcHJldiwgXG4uY3MtbmV4dCB7IGJhY2tncm91bmQtY29sb3I6ICMwMDAwMDA7IGNvbG9yOiAjRkZGRkZGOyBwYWRkaW5nOiAwcHggMTBweDsgfVxuIl19 */

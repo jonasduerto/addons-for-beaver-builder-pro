@@ -1,0 +1,17 @@
+@import "../../../../assets/css/labb-lib";
+input.labb-button.labb-with-icon, button.labb-button.labb-with-icon, a.labb-button.labb-with-icon, .labb-button.labb-with-icon:active, .labb-button.labb-with-icon:visited {
+  span, img.labb-thumbnail {
+    margin-right: 15px;
+    }
+  span {
+    color: #fff;
+    font-size: 24px;
+    vertical-align: middle;
+    line-height: 1;
+    }
+  img.labb-thumbnail {
+    display: inline !important;
+    vertical-align: middle;
+    max-width: 50px;
+    }
+  }
